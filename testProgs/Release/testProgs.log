@@ -1,0 +1,417 @@
+﻿Build started 2015-11-16 오후 1:22:14.
+     1>Project "C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\testProgs\testProgs.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MPEG2TransportStreamIndexer.cpp openRTSP.cpp playCommon.cpp playSIP.cpp registerRTSPStream.cpp sapWatch.cpp testAMRAudioStreamer.cpp testDVVideoStreamer.cpp testGSMStreamer.cpp testH264VideoStreamer.cpp testH264VideoToTransportStream.cpp testH265VideoStreamer.cpp testH265VideoToTransportStream.cpp testMKVStreamer.cpp testMP3Receiver.cpp testMP3Streamer.cpp testMPEG1or2AudioVideoStreamer.cpp testMPEG1or2ProgramToTransportStream.cpp testMPEG1or2Splitter.cpp testMPEG1or2VideoReceiver.cpp testMPEG1or2VideoStreamer.cpp testMPEG2TransportReceiver.cpp testMPEG2TransportStreamer.cpp testMPEG2TransportStreamTrickPlay.cpp testMPEG4VideoStreamer.cpp testOggStreamer.cpp testOnDemandRTSPServer.cpp testRelay.cpp testReplicator.cpp testRTSPClient.cpp testWAVAudioStreamer.cpp vobStreamer.cpp
+         MPEG2TransportStreamIndexer.cpp
+         openRTSP.cpp
+         playCommon.cpp
+         playSIP.cpp
+         registerRTSPStream.cpp
+         sapWatch.cpp
+         testAMRAudioStreamer.cpp
+         testDVVideoStreamer.cpp
+         testGSMStreamer.cpp
+         testH264VideoStreamer.cpp
+         testH264VideoToTransportStream.cpp
+         testH265VideoStreamer.cpp
+         testH265VideoToTransportStream.cpp
+         testMKVStreamer.cpp
+         testMP3Receiver.cpp
+         testMP3Streamer.cpp
+         testMPEG1or2AudioVideoStreamer.cpp
+         testMPEG1or2ProgramToTransportStream.cpp
+         testMPEG1or2Splitter.cpp
+         testMPEG1or2VideoReceiver.cpp
+         Compiling...
+         testMPEG1or2VideoStreamer.cpp
+         testMPEG2TransportReceiver.cpp
+         testMPEG2TransportStreamer.cpp
+         testMPEG2TransportStreamTrickPlay.cpp
+         testMPEG4VideoStreamer.cpp
+         testOggStreamer.cpp
+         testOnDemandRTSPServer.cpp
+         testRelay.cpp
+         testReplicator.cpp
+         testRTSPClient.cpp
+         testWAVAudioStreamer.cpp
+         vobStreamer.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\Release\testProgs.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\Release\testProgs.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\Release\testProgs.lib" /MACHINE:X86 /SAFESEH Release\MPEG2TransportStreamIndexer.obj
+         Release\openRTSP.obj
+         Release\playCommon.obj
+         Release\playSIP.obj
+         Release\registerRTSPStream.obj
+         Release\sapWatch.obj
+         Release\testAMRAudioStreamer.obj
+         Release\testDVVideoStreamer.obj
+         Release\testGSMStreamer.obj
+         Release\testH264VideoStreamer.obj
+         Release\testH264VideoToTransportStream.obj
+         Release\testH265VideoStreamer.obj
+         Release\testH265VideoToTransportStream.obj
+         Release\testMKVStreamer.obj
+         Release\testMP3Receiver.obj
+         Release\testMP3Streamer.obj
+         Release\testMPEG1or2AudioVideoStreamer.obj
+         Release\testMPEG1or2ProgramToTransportStream.obj
+         Release\testMPEG1or2Splitter.obj
+         Release\testMPEG1or2VideoReceiver.obj
+         Release\testMPEG1or2VideoStreamer.obj
+         Release\testMPEG2TransportReceiver.obj
+         Release\testMPEG2TransportStreamer.obj
+         Release\testMPEG2TransportStreamTrickPlay.obj
+         Release\testMPEG4VideoStreamer.obj
+         Release\testOggStreamer.obj
+         Release\testOnDemandRTSPServer.obj
+         Release\testRelay.obj
+         Release\testReplicator.obj
+         Release\testRTSPClient.obj
+         Release\testWAVAudioStreamer.obj
+         Release\vobStreamer.obj
+     1>playCommon.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>playCommon.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>playCommon.obj : error LNK2005: "void __cdecl usage(void)" (?usage@@YAXXZ) already defined in MPEG2TransportStreamIndexer.obj
+     1>playSIP.obj : error LNK2005: "bool controlConnectionUsesTCP" (?controlConnectionUsesTCP@@3_NA) already defined in openRTSP.obj
+     1>playSIP.obj : error LNK2005: "bool allowProxyServers" (?allowProxyServers@@3_NA) already defined in openRTSP.obj
+     1>playSIP.obj : error LNK2005: "bool supportCodecSelection" (?supportCodecSelection@@3_NA) already defined in openRTSP.obj
+     1>playSIP.obj : error LNK2005: "char const * const clientProtocolName" (?clientProtocolName@@3PBDB) already defined in openRTSP.obj
+     1>playSIP.obj : error LNK2005: "void __cdecl setUserAgentString(char const *)" (?setUserAgentString@@YAXPBD@Z) already defined in openRTSP.obj
+     1>playSIP.obj : error LNK2005: "void __cdecl tearDownSession(class MediaSession *,void (__cdecl*)(class RTSPClient *,int,char *))" (?tearDownSession@@YAXPAVMediaSession@@P6AXPAVRTSPClient@@HPAD@Z@Z) already defined in openRTSP.obj
+     1>playSIP.obj : error LNK2005: "void __cdecl startPlayingSession(class MediaSession *,char const *,char const *,float,void (__cdecl*)(class RTSPClient *,int,char *))" (?startPlayingSession@@YAXPAVMediaSession@@PBD1MP6AXPAVRTSPClient@@HPAD@Z@Z) already defined in openRTSP.obj
+     1>playSIP.obj : error LNK2005: "void __cdecl startPlayingSession(class MediaSession *,double,double,float,void (__cdecl*)(class RTSPClient *,int,char *))" (?startPlayingSession@@YAXPAVMediaSession@@NNMP6AXPAVRTSPClient@@HPAD@Z@Z) already defined in openRTSP.obj
+     1>playSIP.obj : error LNK2005: "void __cdecl setupSubsession(class MediaSubsession *,bool,bool,void (__cdecl*)(class RTSPClient *,int,char *))" (?setupSubsession@@YAXPAVMediaSubsession@@_N1P6AXPAVRTSPClient@@HPAD@Z@Z) already defined in openRTSP.obj
+     1>playSIP.obj : error LNK2005: "void __cdecl getSDPDescription(void (__cdecl*)(class RTSPClient *,int,char *))" (?getSDPDescription@@YAXP6AXPAVRTSPClient@@HPAD@Z@Z) already defined in openRTSP.obj
+     1>playSIP.obj : error LNK2005: "void __cdecl getOptions(void (__cdecl*)(class RTSPClient *,int,char *))" (?getOptions@@YAXP6AXPAVRTSPClient@@HPAD@Z@Z) already defined in openRTSP.obj
+     1>playSIP.obj : error LNK2005: "void __cdecl assignClient(class Medium *)" (?assignClient@@YAXPAVMedium@@@Z) already defined in openRTSP.obj
+     1>playSIP.obj : error LNK2005: "class Medium * __cdecl createClient(class UsageEnvironment &,char const *,int,char const *)" (?createClient@@YAPAVMedium@@AAVUsageEnvironment@@PBDH1@Z) already defined in openRTSP.obj
+     1>registerRTSPStream.obj : error LNK2005: "char const * const programName" (?programName@@3PBDB) already defined in MPEG2TransportStreamIndexer.obj
+     1>registerRTSPStream.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>registerRTSPStream.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>registerRTSPStream.obj : error LNK2005: "void __cdecl usage(void)" (?usage@@YAXXZ) already defined in MPEG2TransportStreamIndexer.obj
+     1>sapWatch.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testAMRAudioStreamer.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testAMRAudioStreamer.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testAMRAudioStreamer.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testDVVideoStreamer.obj : error LNK2005: "char const * const inputFileName" (?inputFileName@@3PBDB) already defined in testAMRAudioStreamer.obj
+     1>testDVVideoStreamer.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testDVVideoStreamer.obj : error LNK2005: "void __cdecl play(void)" (?play@@YAXXZ) already defined in testAMRAudioStreamer.obj
+     1>testDVVideoStreamer.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testDVVideoStreamer.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testGSMStreamer.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testGSMStreamer.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testGSMStreamer.obj : error LNK2005: "void __cdecl play(void)" (?play@@YAXXZ) already defined in testAMRAudioStreamer.obj
+     1>testGSMStreamer.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testH264VideoStreamer.obj : error LNK2005: "char const * const inputFileName" (?inputFileName@@3PBDB) already defined in testAMRAudioStreamer.obj
+     1>testH264VideoStreamer.obj : error LNK2005: "class RTPSink * videoSink" (?videoSink@@3PAVRTPSink@@A) already defined in testDVVideoStreamer.obj
+     1>testH264VideoStreamer.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testH264VideoStreamer.obj : error LNK2005: "void __cdecl play(void)" (?play@@YAXXZ) already defined in testAMRAudioStreamer.obj
+     1>testH264VideoStreamer.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testH264VideoStreamer.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testH264VideoToTransportStream.obj : error LNK2005: "char const * const inputFileName" (?inputFileName@@3PBDB) already defined in testAMRAudioStreamer.obj
+     1>testH264VideoToTransportStream.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testH264VideoToTransportStream.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testH264VideoToTransportStream.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testH265VideoStreamer.obj : error LNK2005: "char const * const inputFileName" (?inputFileName@@3PBDB) already defined in testAMRAudioStreamer.obj
+     1>testH265VideoStreamer.obj : error LNK2005: "class RTPSink * videoSink" (?videoSink@@3PAVRTPSink@@A) already defined in testDVVideoStreamer.obj
+     1>testH265VideoStreamer.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testH265VideoStreamer.obj : error LNK2005: "void __cdecl play(void)" (?play@@YAXXZ) already defined in testAMRAudioStreamer.obj
+     1>testH265VideoStreamer.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testH265VideoStreamer.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testH265VideoToTransportStream.obj : error LNK2005: "char const * const outputFileName" (?outputFileName@@3PBDB) already defined in testH264VideoToTransportStream.obj
+     1>testH265VideoToTransportStream.obj : error LNK2005: "char const * const inputFileName" (?inputFileName@@3PBDB) already defined in testAMRAudioStreamer.obj
+     1>testH265VideoToTransportStream.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testH265VideoToTransportStream.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testH265VideoToTransportStream.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testMKVStreamer.obj : error LNK2005: "char const * const inputFileName" (?inputFileName@@3PBDB) already defined in testAMRAudioStreamer.obj
+     1>testMKVStreamer.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMKVStreamer.obj : error LNK2005: "void __cdecl play(void)" (?play@@YAXXZ) already defined in testAMRAudioStreamer.obj
+     1>testMKVStreamer.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMKVStreamer.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testMP3Receiver.obj : error LNK2005: "struct sessionState_t sessionState" (?sessionState@@3UsessionState_t@@A) already defined in testGSMStreamer.obj
+     1>testMP3Receiver.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMP3Receiver.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMP3Receiver.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testMP3Streamer.obj : error LNK2005: "struct sessionState_t sessionState" (?sessionState@@3UsessionState_t@@A) already defined in testGSMStreamer.obj
+     1>testMP3Streamer.obj : error LNK2005: "char const * const inputFileName" (?inputFileName@@3PBDB) already defined in testAMRAudioStreamer.obj
+     1>testMP3Streamer.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMP3Streamer.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMP3Streamer.obj : error LNK2005: "void __cdecl play(void)" (?play@@YAXXZ) already defined in testAMRAudioStreamer.obj
+     1>testMP3Streamer.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG1or2AudioVideoStreamer.obj : error LNK2005: "class RTPSink * audioSink" (?audioSink@@3PAVRTPSink@@A) already defined in testAMRAudioStreamer.obj
+     1>testMPEG1or2AudioVideoStreamer.obj : error LNK2005: "char const * const inputFileName" (?inputFileName@@3PBDB) already defined in testAMRAudioStreamer.obj
+     1>testMPEG1or2AudioVideoStreamer.obj : error LNK2005: "class RTPSink * videoSink" (?videoSink@@3PAVRTPSink@@A) already defined in testDVVideoStreamer.obj
+     1>testMPEG1or2AudioVideoStreamer.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG1or2AudioVideoStreamer.obj : error LNK2005: "void __cdecl play(void)" (?play@@YAXXZ) already defined in testAMRAudioStreamer.obj
+     1>testMPEG1or2AudioVideoStreamer.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG1or2AudioVideoStreamer.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG1or2ProgramToTransportStream.obj : error LNK2005: "char const * const outputFileName" (?outputFileName@@3PBDB) already defined in testH264VideoToTransportStream.obj
+     1>testMPEG1or2ProgramToTransportStream.obj : error LNK2005: "char const * const inputFileName" (?inputFileName@@3PBDB) already defined in testAMRAudioStreamer.obj
+     1>testMPEG1or2ProgramToTransportStream.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG1or2ProgramToTransportStream.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG1or2ProgramToTransportStream.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG1or2Splitter.obj : error LNK2005: "struct sessionState_t sessionState" (?sessionState@@3UsessionState_t@@A) already defined in testGSMStreamer.obj
+     1>testMPEG1or2Splitter.obj : error LNK2005: "char const * const inputFileName" (?inputFileName@@3PBDB) already defined in testAMRAudioStreamer.obj
+     1>testMPEG1or2Splitter.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG1or2Splitter.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG1or2Splitter.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG1or2VideoReceiver.obj : error LNK2005: "struct sessionState_t sessionState" (?sessionState@@3UsessionState_t@@A) already defined in testGSMStreamer.obj
+     1>testMPEG1or2VideoReceiver.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG1or2VideoReceiver.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG1or2VideoReceiver.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG1or2VideoStreamer.obj : error LNK2005: "bool iFramesOnly" (?iFramesOnly@@3_NA) already defined in testMPEG1or2AudioVideoStreamer.obj
+     1>testMPEG1or2VideoStreamer.obj : error LNK2005: "char const * const inputFileName" (?inputFileName@@3PBDB) already defined in testAMRAudioStreamer.obj
+     1>testMPEG1or2VideoStreamer.obj : error LNK2005: "class RTPSink * videoSink" (?videoSink@@3PAVRTPSink@@A) already defined in testDVVideoStreamer.obj
+     1>testMPEG1or2VideoStreamer.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG1or2VideoStreamer.obj : error LNK2005: "void __cdecl play(void)" (?play@@YAXXZ) already defined in testAMRAudioStreamer.obj
+     1>testMPEG1or2VideoStreamer.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG1or2VideoStreamer.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG2TransportReceiver.obj : error LNK2005: "struct sessionState_t sessionState" (?sessionState@@3UsessionState_t@@A) already defined in testGSMStreamer.obj
+     1>testMPEG2TransportReceiver.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG2TransportReceiver.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG2TransportReceiver.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG2TransportStreamer.obj : error LNK2005: "class FramedSource * videoSource" (?videoSource@@3PAVFramedSource@@A) already defined in testMPEG1or2AudioVideoStreamer.obj
+     1>testMPEG2TransportStreamer.obj : error LNK2005: "char const * const inputFileName" (?inputFileName@@3PBDB) already defined in testAMRAudioStreamer.obj
+     1>testMPEG2TransportStreamer.obj : error LNK2005: "class RTPSink * videoSink" (?videoSink@@3PAVRTPSink@@A) already defined in testDVVideoStreamer.obj
+     1>testMPEG2TransportStreamer.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG2TransportStreamer.obj : error LNK2005: "void __cdecl play(void)" (?play@@YAXXZ) already defined in testAMRAudioStreamer.obj
+     1>testMPEG2TransportStreamer.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG2TransportStreamer.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG2TransportStreamTrickPlay.obj : error LNK2005: "char const * const programName" (?programName@@3PBDB) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG2TransportStreamTrickPlay.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG2TransportStreamTrickPlay.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG2TransportStreamTrickPlay.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG2TransportStreamTrickPlay.obj : error LNK2005: "void __cdecl usage(void)" (?usage@@YAXXZ) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG4VideoStreamer.obj : error LNK2005: "char const * const inputFileName" (?inputFileName@@3PBDB) already defined in testAMRAudioStreamer.obj
+     1>testMPEG4VideoStreamer.obj : error LNK2005: "class RTPSink * videoSink" (?videoSink@@3PAVRTPSink@@A) already defined in testDVVideoStreamer.obj
+     1>testMPEG4VideoStreamer.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG4VideoStreamer.obj : error LNK2005: "void __cdecl play(void)" (?play@@YAXXZ) already defined in testAMRAudioStreamer.obj
+     1>testMPEG4VideoStreamer.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testMPEG4VideoStreamer.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testOggStreamer.obj : error LNK2005: "class ServerMediaSession * sms" (?sms@@3PAVServerMediaSession@@A) already defined in testMKVStreamer.obj
+     1>testOggStreamer.obj : error LNK2005: "struct in_addr destinationAddress" (?destinationAddress@@3Uin_addr@@A) already defined in testMKVStreamer.obj
+     1>testOggStreamer.obj : error LNK2005: "char const * const inputFileName" (?inputFileName@@3PBDB) already defined in testAMRAudioStreamer.obj
+     1>testOggStreamer.obj : error LNK2005: "class RTSPServer * rtspServer" (?rtspServer@@3PAVRTSPServer@@A) already defined in testMKVStreamer.obj
+     1>testOggStreamer.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testOggStreamer.obj : error LNK2005: "void __cdecl play(void)" (?play@@YAXXZ) already defined in testAMRAudioStreamer.obj
+     1>testOggStreamer.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testOggStreamer.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testOnDemandRTSPServer.obj : error LNK2005: "bool iFramesOnly" (?iFramesOnly@@3_NA) already defined in testMPEG1or2AudioVideoStreamer.obj
+     1>testOnDemandRTSPServer.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testOnDemandRTSPServer.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testRelay.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testRelay.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testReplicator.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testReplicator.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testRTSPClient.obj : error LNK2005: "void __cdecl subsessionByeHandler(void *)" (?subsessionByeHandler@@YAXPAX@Z) already defined in playCommon.obj
+     1>testRTSPClient.obj : error LNK2005: "void __cdecl subsessionAfterPlaying(void *)" (?subsessionAfterPlaying@@YAXPAX@Z) already defined in playCommon.obj
+     1>testRTSPClient.obj : error LNK2005: "void __cdecl continueAfterPLAY(class RTSPClient *,int,char *)" (?continueAfterPLAY@@YAXPAVRTSPClient@@HPAD@Z) already defined in playCommon.obj
+     1>testRTSPClient.obj : error LNK2005: "void __cdecl continueAfterSETUP(class RTSPClient *,int,char *)" (?continueAfterSETUP@@YAXPAVRTSPClient@@HPAD@Z) already defined in playCommon.obj
+     1>testRTSPClient.obj : error LNK2005: "void __cdecl continueAfterDESCRIBE(class RTSPClient *,int,char *)" (?continueAfterDESCRIBE@@YAXPAVRTSPClient@@HPAD@Z) already defined in playCommon.obj
+     1>testRTSPClient.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>testWAVAudioStreamer.obj : error LNK2005: "struct sessionState_t sessionState" (?sessionState@@3UsessionState_t@@A) already defined in testGSMStreamer.obj
+     1>testWAVAudioStreamer.obj : error LNK2005: "char const * const inputFileName" (?inputFileName@@3PBDB) already defined in testAMRAudioStreamer.obj
+     1>testWAVAudioStreamer.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>testWAVAudioStreamer.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>testWAVAudioStreamer.obj : error LNK2005: "void __cdecl play(void)" (?play@@YAXXZ) already defined in testAMRAudioStreamer.obj
+     1>testWAVAudioStreamer.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>vobStreamer.obj : error LNK2005: "char const * const programName" (?programName@@3PBDB) already defined in MPEG2TransportStreamIndexer.obj
+     1>vobStreamer.obj : error LNK2005: "bool iFramesOnly" (?iFramesOnly@@3_NA) already defined in testMPEG1or2AudioVideoStreamer.obj
+     1>vobStreamer.obj : error LNK2005: "class RTPSink * audioSink" (?audioSink@@3PAVRTPSink@@A) already defined in testAMRAudioStreamer.obj
+     1>vobStreamer.obj : error LNK2005: "class FramedSource * videoSource" (?videoSource@@3PAVFramedSource@@A) already defined in testMPEG1or2AudioVideoStreamer.obj
+     1>vobStreamer.obj : error LNK2005: "class MPEG1or2Demux * mpegDemux" (?mpegDemux@@3PAVMPEG1or2Demux@@A) already defined in testMPEG1or2AudioVideoStreamer.obj
+     1>vobStreamer.obj : error LNK2005: "class RTPSink * videoSink" (?videoSink@@3PAVRTPSink@@A) already defined in testDVVideoStreamer.obj
+     1>vobStreamer.obj : error LNK2005: "class RTSPServer * rtspServer" (?rtspServer@@3PAVRTSPServer@@A) already defined in testMKVStreamer.obj
+     1>vobStreamer.obj : error LNK2005: "class UsageEnvironment * env" (?env@@3PAVUsageEnvironment@@A) already defined in MPEG2TransportStreamIndexer.obj
+     1>vobStreamer.obj : error LNK2005: "void __cdecl play(void)" (?play@@YAXXZ) already defined in testAMRAudioStreamer.obj
+     1>vobStreamer.obj : error LNK2005: "void __cdecl afterPlaying(void *)" (?afterPlaying@@YAXPAX@Z) already defined in MPEG2TransportStreamIndexer.obj
+     1>vobStreamer.obj : error LNK2005: _main already defined in MPEG2TransportStreamIndexer.obj
+     1>vobStreamer.obj : error LNK2005: "void __cdecl usage(void)" (?usage@@YAXXZ) already defined in MPEG2TransportStreamIndexer.obj
+     1>MPEG2TransportStreamIndexer.obj : error LNK2001: unresolved external symbol "public: static class MPEG2IFrameIndexFromTransportStream * __cdecl MPEG2IFrameIndexFromTransportStream::createNew(class UsageEnvironment &,class FramedSource *)" (?createNew@MPEG2IFrameIndexFromTransportStream@@SAPAV1@AAVUsageEnvironment@@PAVFramedSource@@@Z)
+     1>MPEG2TransportStreamIndexer.obj : error LNK2001: unresolved external symbol "public: static class BasicUsageEnvironment * __cdecl BasicUsageEnvironment::createNew(class TaskScheduler &)" (?createNew@BasicUsageEnvironment@@SAPAV1@AAVTaskScheduler@@@Z)
+     1>MPEG2TransportStreamIndexer.obj : error LNK2001: unresolved external symbol "public: bool __thiscall MediaSink::startPlaying(class MediaSource &,void (__cdecl*)(void *),void *)" (?startPlaying@MediaSink@@QAE_NAAVMediaSource@@P6AXPAX@Z1@Z)
+     1>MPEG2TransportStreamIndexer.obj : error LNK2001: unresolved external symbol "public: static class FileSink * __cdecl FileSink::createNew(class UsageEnvironment &,char const *,unsigned int,bool)" (?createNew@FileSink@@SAPAV1@AAVUsageEnvironment@@PBDI_N@Z)
+     1>MPEG2TransportStreamIndexer.obj : error LNK2001: unresolved external symbol "public: static class BasicTaskScheduler * __cdecl BasicTaskScheduler::createNew(unsigned int)" (?createNew@BasicTaskScheduler@@SAPAV1@I@Z)
+     1>MPEG2TransportStreamIndexer.obj : error LNK2001: unresolved external symbol "public: static class ByteStreamFileSource * __cdecl ByteStreamFileSource::createNew(class UsageEnvironment &,char const *,unsigned int,unsigned int)" (?createNew@ByteStreamFileSource@@SAPAV1@AAVUsageEnvironment@@PBDII@Z)
+     1>openRTSP.obj : error LNK2001: unresolved external symbol "public: void __thiscall RTSPClient::setUserAgentString(char const *)" (?setUserAgentString@RTSPClient@@QAEXPBD@Z)
+     1>openRTSP.obj : error LNK2001: unresolved external symbol "public: unsigned int __thiscall RTSPClient::sendTeardownCommand(class MediaSession &,void (__cdecl*)(class RTSPClient *,int,char *),class Authenticator *)" (?sendTeardownCommand@RTSPClient@@QAEIAAVMediaSession@@P6AXPAV1@HPAD@ZPAVAuthenticator@@@Z)
+     1>openRTSP.obj : error LNK2001: unresolved external symbol "public: unsigned int __thiscall RTSPClient::sendPlayCommand(class MediaSession &,void (__cdecl*)(class RTSPClient *,int,char *),double,double,float,class Authenticator *)" (?sendPlayCommand@RTSPClient@@QAEIAAVMediaSession@@P6AXPAV1@HPAD@ZNNMPAVAuthenticator@@@Z)
+     1>openRTSP.obj : error LNK2001: unresolved external symbol "public: unsigned int __thiscall RTSPClient::sendPlayCommand(class MediaSession &,void (__cdecl*)(class RTSPClient *,int,char *),char const *,char const *,float,class Authenticator *)" (?sendPlayCommand@RTSPClient@@QAEIAAVMediaSession@@P6AXPAV1@HPAD@ZPBD4MPAVAuthenticator@@@Z)
+     1>openRTSP.obj : error LNK2001: unresolved external symbol "public: unsigned int __thiscall RTSPClient::sendSetupCommand(class MediaSubsession &,void (__cdecl*)(class RTSPClient *,int,char *),bool,bool,bool,class Authenticator *)" (?sendSetupCommand@RTSPClient@@QAEIAAVMediaSubsession@@P6AXPAV1@HPAD@Z_N44PAVAuthenticator@@@Z)
+     1>openRTSP.obj : error LNK2001: unresolved external symbol "public: unsigned int __thiscall RTSPClient::sendOptionsCommand(void (__cdecl*)(class RTSPClient *,int,char *),class Authenticator *)" (?sendOptionsCommand@RTSPClient@@QAEIP6AXPAV1@HPAD@ZPAVAuthenticator@@@Z)
+     1>openRTSP.obj : error LNK2001: unresolved external symbol "public: unsigned int __thiscall RTSPClient::sendDescribeCommand(void (__cdecl*)(class RTSPClient *,int,char *),class Authenticator *)" (?sendDescribeCommand@RTSPClient@@QAEIP6AXPAV1@HPAD@ZPAVAuthenticator@@@Z)
+     1>openRTSP.obj : error LNK2001: unresolved external symbol "public: static class RTSPClient * __cdecl RTSPClient::createNew(class UsageEnvironment &,char const *,int,char const *,unsigned short,int)" (?createNew@RTSPClient@@SAPAV1@AAVUsageEnvironment@@PBDH1GH@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: char const * __thiscall MediaSubsession::fmtp_config(void)const " (?fmtp_config@MediaSubsession@@QBEPBDXZ)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: char const * __thiscall MediaSubsession::attrVal_str(char const *)const " (?attrVal_str@MediaSubsession@@QBEPBDPBD@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: bool __thiscall MediaSubsession::setClientPortNum(unsigned short)" (?setClientPortNum@MediaSubsession@@QAE_NG@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: bool __thiscall MediaSubsession::initiate(int)" (?initiate@MediaSubsession@@QAE_NH@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "unsigned char * __cdecl parseGeneralConfigStr(char const *,unsigned int &)" (?parseGeneralConfigStr@@YAPAEPBDAAI@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: static class HandlerServerForREGISTERCommand * __cdecl HandlerServerForREGISTERCommand::createNew(class UsageEnvironment &,void (__cdecl*)(class RTSPClient *,bool),class Port,class UserAuthenticationDatabase *,int,char const *)" (?createNew@HandlerServerForREGISTERCommand@@SAPAV1@AAVUsageEnvironment@@P6AXPAVRTSPClient@@_N@ZVPort@@PAVUserAuthenticationDatabase@@HPBD@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: __thiscall Port::Port(unsigned short)" (??0Port@@QAE@G@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: __thiscall UserAuthenticationDatabase::UserAuthenticationDatabase(char const *,bool)" (??0UserAuthenticationDatabase@@QAE@PBD_N@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: static class H264VideoFileSink * __cdecl H264VideoFileSink::createNew(class UsageEnvironment &,char const *,char const *,unsigned int,bool)" (?createNew@H264VideoFileSink@@SAPAV1@AAVUsageEnvironment@@PBD1I_N@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: static class AMRAudioFileSink * __cdecl AMRAudioFileSink::createNew(class UsageEnvironment &,char const *,unsigned int,bool)" (?createNew@AMRAudioFileSink@@SAPAV1@AAVUsageEnvironment@@PBDI_N@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "unsigned int __cdecl setReceiveBufferTo(class UsageEnvironment &,int,unsigned int)" (?setReceiveBufferTo@@YAIAAVUsageEnvironment@@HI@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: double __thiscall RTPReceptionStats::totNumKBytesReceived(void)const " (?totNumKBytesReceived@RTPReceptionStats@@QBENXZ)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: class RTPReceptionStats * __thiscall RTPReceptionStatsDB::Iterator::next(bool)" (?next@Iterator@RTPReceptionStatsDB@@QAEPAVRTPReceptionStats@@_N@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall RTPReceptionStatsDB::Iterator::~Iterator(void)" (??1Iterator@RTPReceptionStatsDB@@UAE@XZ)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: __thiscall RTPReceptionStatsDB::Iterator::Iterator(class RTPReceptionStatsDB &)" (??0Iterator@RTPReceptionStatsDB@@QAE@AAV1@@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: static class OggFileSink * __cdecl OggFileSink::createNew(class UsageEnvironment &,char const *,unsigned int,char const *,unsigned int,bool)" (?createNew@OggFileSink@@SAPAV1@AAVUsageEnvironment@@PBDI1I_N@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol __imp__ntohs@4
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: void __thiscall RTCPInstance::setByeHandler(void (__cdecl*)(void *),void *,bool)" (?setByeHandler@RTCPInstance@@QAEXP6AXPAX@Z0_N@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "int __cdecl gettimeofday(struct timeval *,int *)" (?gettimeofday@@YAHPAUtimeval@@PAH@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: __thiscall Authenticator::Authenticator(char const *,char const *,bool)" (??0Authenticator@@QAE@PBD0_N@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: static class H265VideoFileSink * __cdecl H265VideoFileSink::createNew(class UsageEnvironment &,char const *,char const *,char const *,char const *,unsigned int,bool)" (?createNew@H265VideoFileSink@@SAPAV1@AAVUsageEnvironment@@PBD111I_N@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: char * __thiscall MediaSession::absEndTime(void)const " (?absEndTime@MediaSession@@QBEPADXZ)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: char * __thiscall MediaSession::absStartTime(void)const " (?absStartTime@MediaSession@@QBEPADXZ)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: static class MediaSession * __cdecl MediaSession::createNew(class UsageEnvironment &,char const *)" (?createNew@MediaSession@@SAPAV1@AAVUsageEnvironment@@PBD@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "unsigned int __cdecl getReceiveBufferSize(class UsageEnvironment &,int)" (?getReceiveBufferSize@@YAIAAVUsageEnvironment@@H@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: static void __cdecl Medium::close(class Medium *)" (?close@Medium@@SAXPAV1@@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "unsigned int ReceivingInterfaceAddr" (?ReceivingInterfaceAddr@@3IA)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: class NetAddress const * __thiscall NetAddressList::firstAddress(void)const " (?firstAddress@NetAddressList@@QBEPBVNetAddress@@XZ)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall NetAddressList::~NetAddressList(void)" (??1NetAddressList@@UAE@XZ)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: __thiscall NetAddressList::NetAddressList(char const *)" (??0NetAddressList@@QAE@PBD@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: class MediaSubsession * __thiscall MediaSubsessionIterator::next(void)" (?next@MediaSubsessionIterator@@QAEPAVMediaSubsession@@XZ)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall MediaSubsessionIterator::~MediaSubsessionIterator(void)" (??1MediaSubsessionIterator@@UAE@XZ)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: __thiscall MediaSubsessionIterator::MediaSubsessionIterator(class MediaSession const &)" (??0MediaSubsessionIterator@@QAE@ABVMediaSession@@@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: bool __thiscall QuickTimeFileSink::startPlaying(void (__cdecl*)(void *),void *)" (?startPlaying@QuickTimeFileSink@@QAE_NP6AXPAX@Z0@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: static class QuickTimeFileSink * __cdecl QuickTimeFileSink::createNew(class UsageEnvironment &,class MediaSession &,char const *,unsigned int,unsigned short,unsigned short,unsigned int,bool,bool,bool,bool)" (?createNew@QuickTimeFileSink@@SAPAV1@AAVUsageEnvironment@@AAVMediaSession@@PBDIGGI_N333@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: bool __thiscall AVIFileSink::startPlaying(void (__cdecl*)(void *),void *)" (?startPlaying@AVIFileSink@@QAE_NP6AXPAX@Z0@Z)
+     1>playCommon.obj : error LNK2001: unresolved external symbol "public: static class AVIFileSink * __cdecl AVIFileSink::createNew(class UsageEnvironment &,class MediaSession &,char const *,unsigned int,unsigned short,unsigned short,unsigned int,bool)" (?createNew@AVIFileSink@@SAPAV1@AAVUsageEnvironment@@AAVMediaSession@@PBDIGGI_N@Z)
+     1>playSIP.obj : error LNK2001: unresolved external symbol "public: void __thiscall MediaSubsession::setSessionId(char const *)" (?setSessionId@MediaSubsession@@QAEXPBD@Z)
+     1>playSIP.obj : error LNK2001: unresolved external symbol "public: void __thiscall MediaSubsession::setDestinations(unsigned int)" (?setDestinations@MediaSubsession@@QAEXI@Z)
+     1>playSIP.obj : error LNK2001: unresolved external symbol "public: unsigned int __thiscall MediaSubsession::connectionEndpointAddress(void)const " (?connectionEndpointAddress@MediaSubsession@@QBEIXZ)
+     1>playSIP.obj : error LNK2001: unresolved external symbol "char * __cdecl strDupSize(char const *)" (?strDupSize@@YAPADPBD@Z)
+     1>playSIP.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall NetAddress::~NetAddress(void)" (??1NetAddress@@UAE@XZ)
+     1>playSIP.obj : error LNK2001: unresolved external symbol "public: __thiscall NetAddress::NetAddress(class NetAddress const &)" (??0NetAddress@@QAE@ABV0@@Z)
+     1>playSIP.obj : error LNK2001: unresolved external symbol "public: void __thiscall SIPClient::setUserAgentString(char const *)" (?setUserAgentString@SIPClient@@QAEXPBD@Z)
+     1>playSIP.obj : error LNK2001: unresolved external symbol "public: bool __thiscall SIPClient::sendBYE(void)" (?sendBYE@SIPClient@@QAE_NXZ)
+     1>playSIP.obj : error LNK2001: unresolved external symbol "public: bool __thiscall SIPClient::sendACK(void)" (?sendACK@SIPClient@@QAE_NXZ)
+     1>playSIP.obj : error LNK2001: unresolved external symbol "public: char * __thiscall SIPClient::inviteWithPassword(char const *,char const *,char const *)" (?inviteWithPassword@SIPClient@@QAEPADPBD00@Z)
+     1>playSIP.obj : error LNK2001: unresolved external symbol "public: char * __thiscall SIPClient::invite(char const *,class Authenticator *)" (?invite@SIPClient@@QAEPADPBDPAVAuthenticator@@@Z)
+     1>playSIP.obj : error LNK2001: unresolved external symbol "public: void __thiscall SIPClient::setProxyServer(unsigned int,unsigned short)" (?setProxyServer@SIPClient@@QAEXIG@Z)
+     1>playSIP.obj : error LNK2001: unresolved external symbol "public: static class SIPClient * __cdecl SIPClient::createNew(class UsageEnvironment &,unsigned char,char const *,int,char const *)" (?createNew@SIPClient@@SAPAV1@AAVUsageEnvironment@@EPBDH1@Z)
+     1>playSIP.obj : error LNK2001: unresolved external symbol "char * __cdecl strDup(char const *)" (?strDup@@YAPADPBD@Z)
+     1>registerRTSPStream.obj : error LNK2001: unresolved external symbol "public: static class RTSPRegisterSender * __cdecl RTSPRegisterSender::createNew(class UsageEnvironment &,char const *,unsigned short,char const *,void (__cdecl*)(class RTSPClient *,int,char *),class Authenticator *,bool,char const *,bool,int,char const *)" (?createNew@RTSPRegisterSender@@SAPAV1@AAVUsageEnvironment@@PBDG1P6AXPAVRTSPClient@@HPAD@ZPAVAuthenticator@@_N16H1@Z)
+     1>sapWatch.obj : error LNK2001: unresolved external symbol _our_inet_addr
+     1>sapWatch.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall AddressString::~AddressString(void)" (??1AddressString@@UAE@XZ)
+     1>sapWatch.obj : error LNK2001: unresolved external symbol "public: __thiscall AddressString::AddressString(struct sockaddr_in const &)" (??0AddressString@@QAE@ABUsockaddr_in@@@Z)
+     1>sapWatch.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall Groupsock::handleRead(unsigned char *,unsigned int,unsigned int &,struct sockaddr_in &)" (?handleRead@Groupsock@@UAE_NPAEIAAIAAUsockaddr_in@@@Z)
+     1>sapWatch.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall Groupsock::~Groupsock(void)" (??1Groupsock@@UAE@XZ)
+     1>sapWatch.obj : error LNK2001: unresolved external symbol "public: __thiscall Groupsock::Groupsock(class UsageEnvironment &,struct in_addr const &,class Port,unsigned char)" (??0Groupsock@@QAE@AAVUsageEnvironment@@ABUin_addr@@VPort@@E@Z)
+     1>testAMRAudioStreamer.obj : error LNK2001: unresolved external symbol "public: static class AMRAudioRTPSink * __cdecl AMRAudioRTPSink::createNew(class UsageEnvironment &,class Groupsock *,unsigned char,bool,unsigned int)" (?createNew@AMRAudioRTPSink@@SAPAV1@AAVUsageEnvironment@@PAVGroupsock@@E_NI@Z)
+     1>testAMRAudioStreamer.obj : error LNK2001: unresolved external symbol "public: bool __thiscall ServerMediaSession::addSubsession(class ServerMediaSubsession *)" (?addSubsession@ServerMediaSession@@QAE_NPAVServerMediaSubsession@@@Z)
+     1>testAMRAudioStreamer.obj : error LNK2001: unresolved external symbol "public: static class ServerMediaSession * __cdecl ServerMediaSession::createNew(class UsageEnvironment &,char const *,char const *,char const *,bool,char const *)" (?createNew@ServerMediaSession@@SAPAV1@AAVUsageEnvironment@@PBD11_N1@Z)
+     1>testAMRAudioStreamer.obj : error LNK2001: unresolved external symbol "public: static class AMRAudioFileSource * __cdecl AMRAudioFileSource::createNew(class UsageEnvironment &,char const *)" (?createNew@AMRAudioFileSource@@SAPAV1@AAVUsageEnvironment@@PBD@Z)
+     1>testAMRAudioStreamer.obj : error LNK2001: unresolved external symbol "public: char * __thiscall RTSPServer::rtspURL(class ServerMediaSession const *,int)const " (?rtspURL@RTSPServer@@QBEPADPBVServerMediaSession@@H@Z)
+     1>testAMRAudioStreamer.obj : error LNK2001: unresolved external symbol "public: static class RTSPServer * __cdecl RTSPServer::createNew(class UsageEnvironment &,class Port,class UserAuthenticationDatabase *,unsigned int)" (?createNew@RTSPServer@@SAPAV1@AAVUsageEnvironment@@VPort@@PAVUserAuthenticationDatabase@@I@Z)
+     1>testAMRAudioStreamer.obj : error LNK2001: unresolved external symbol "public: void __thiscall GenericMediaServer::addServerMediaSession(class ServerMediaSession *)" (?addServerMediaSession@GenericMediaServer@@QAEXPAVServerMediaSession@@@Z)
+     1>testAMRAudioStreamer.obj : error LNK2001: unresolved external symbol "public: static class PassiveServerMediaSubsession * __cdecl PassiveServerMediaSubsession::createNew(class RTPSink &,class RTCPInstance *)" (?createNew@PassiveServerMediaSubsession@@SAPAV1@AAVRTPSink@@PAVRTCPInstance@@@Z)
+     1>testAMRAudioStreamer.obj : error LNK2001: unresolved external symbol "public: static class RTCPInstance * __cdecl RTCPInstance::createNew(class UsageEnvironment &,class Groupsock *,unsigned int,unsigned char const *,class RTPSink *,class RTPSource *,bool)" (?createNew@RTCPInstance@@SAPAV1@AAVUsageEnvironment@@PAVGroupsock@@IPBEPAVRTPSink@@PAVRTPSource@@_N@Z)
+     1>testAMRAudioStreamer.obj : error LNK2001: unresolved external symbol "unsigned int __cdecl chooseRandomIPv4SSMAddress(class UsageEnvironment &)" (?chooseRandomIPv4SSMAddress@@YAIAAVUsageEnvironment@@@Z)
+     1>testAMRAudioStreamer.obj : error LNK2001: unresolved external symbol "public: void __thiscall Groupsock::multicastSendOnly(void)" (?multicastSendOnly@Groupsock@@QAEXXZ)
+     1>testAMRAudioStreamer.obj : error LNK2001: unresolved external symbol __imp__gethostname@8
+     1>testDVVideoStreamer.obj : error LNK2001: unresolved external symbol "public: static class DVVideoRTPSink * __cdecl DVVideoRTPSink::createNew(class UsageEnvironment &,class Groupsock *,unsigned char)" (?createNew@DVVideoRTPSink@@SAPAV1@AAVUsageEnvironment@@PAVGroupsock@@E@Z)
+     1>testDVVideoStreamer.obj : error LNK2001: unresolved external symbol "public: static unsigned int OutPacketBuffer::maxSize" (?maxSize@OutPacketBuffer@@2IA)
+     1>testDVVideoStreamer.obj : error LNK2001: unresolved external symbol "public: static class DVVideoStreamFramer * __cdecl DVVideoStreamFramer::createNew(class UsageEnvironment &,class FramedSource *,bool,bool)" (?createNew@DVVideoStreamFramer@@SAPAV1@AAVUsageEnvironment@@PAVFramedSource@@_N2@Z)
+     1>testGSMStreamer.obj : error LNK2001: unresolved external symbol "public: static class GSMAudioRTPSink * __cdecl GSMAudioRTPSink::createNew(class UsageEnvironment &,class Groupsock *)" (?createNew@GSMAudioRTPSink@@SAPAV1@AAVUsageEnvironment@@PAVGroupsock@@@Z)
+     1>testGSMStreamer.obj : error LNK2001: unresolved external symbol "class FramedSource * __cdecl createNewGSMAudioSource(class UsageEnvironment &)" (?createNewGSMAudioSource@@YAPAVFramedSource@@AAVUsageEnvironment@@@Z)
+     1>testH264VideoStreamer.obj : error LNK2001: unresolved external symbol "public: static class H264VideoRTPSink * __cdecl H264VideoRTPSink::createNew(class UsageEnvironment &,class Groupsock *,unsigned char)" (?createNew@H264VideoRTPSink@@SAPAV1@AAVUsageEnvironment@@PAVGroupsock@@E@Z)
+     1>testH264VideoStreamer.obj : error LNK2001: unresolved external symbol "public: static class H264VideoStreamFramer * __cdecl H264VideoStreamFramer::createNew(class UsageEnvironment &,class FramedSource *,bool)" (?createNew@H264VideoStreamFramer@@SAPAV1@AAVUsageEnvironment@@PAVFramedSource@@_N@Z)
+     1>testH264VideoToTransportStream.obj : error LNK2001: unresolved external symbol "public: void __thiscall MPEG2TransportStreamFromESSource::addNewVideoSource(class FramedSource *,int,short)" (?addNewVideoSource@MPEG2TransportStreamFromESSource@@QAEXPAVFramedSource@@HF@Z)
+     1>testH264VideoToTransportStream.obj : error LNK2001: unresolved external symbol "public: static class MPEG2TransportStreamFromESSource * __cdecl MPEG2TransportStreamFromESSource::createNew(class UsageEnvironment &)" (?createNew@MPEG2TransportStreamFromESSource@@SAPAV1@AAVUsageEnvironment@@@Z)
+     1>testH265VideoStreamer.obj : error LNK2001: unresolved external symbol "public: static class H265VideoStreamFramer * __cdecl H265VideoStreamFramer::createNew(class UsageEnvironment &,class FramedSource *,bool)" (?createNew@H265VideoStreamFramer@@SAPAV1@AAVUsageEnvironment@@PAVFramedSource@@_N@Z)
+     1>testH265VideoStreamer.obj : error LNK2001: unresolved external symbol "public: static class H265VideoRTPSink * __cdecl H265VideoRTPSink::createNew(class UsageEnvironment &,class Groupsock *,unsigned char)" (?createNew@H265VideoRTPSink@@SAPAV1@AAVUsageEnvironment@@PAVGroupsock@@E@Z)
+     1>testMKVStreamer.obj : error LNK2001: unresolved external symbol "public: class RTPSink * __thiscall MatroskaFile::createRTPSinkForTrackNumber(unsigned int,class Groupsock *,unsigned char)" (?createRTPSinkForTrackNumber@MatroskaFile@@QAEPAVRTPSink@@IPAVGroupsock@@E@Z)
+     1>testMKVStreamer.obj : error LNK2001: unresolved external symbol "public: class FramedSource * __thiscall MatroskaFile::createSourceForStreaming(class FramedSource *,unsigned int,unsigned int &,unsigned int &)" (?createSourceForStreaming@MatroskaFile@@QAEPAVFramedSource@@PAV2@IAAI1@Z)
+     1>testMKVStreamer.obj : error LNK2001: unresolved external symbol "public: class MatroskaDemux * __thiscall MatroskaFile::newDemux(void)" (?newDemux@MatroskaFile@@QAEPAVMatroskaDemux@@XZ)
+     1>testMKVStreamer.obj : error LNK2001: unresolved external symbol "public: static void __cdecl MatroskaFile::createNew(class UsageEnvironment &,char const *,void (__cdecl*)(class MatroskaFile *,void *),void *,char const *)" (?createNew@MatroskaFile@@SAXAAVUsageEnvironment@@PBDP6AXPAV1@PAX@Z31@Z)
+     1>testMKVStreamer.obj : error LNK2001: unresolved external symbol "public: class FramedSource * __thiscall MatroskaDemux::newDemuxedTrackByTrackNumber(unsigned int)" (?newDemuxedTrackByTrackNumber@MatroskaDemux@@QAEPAVFramedSource@@I@Z)
+     1>testMKVStreamer.obj : error LNK2001: unresolved external symbol "public: class FramedSource * __thiscall MatroskaDemux::newDemuxedTrack(unsigned int &)" (?newDemuxedTrack@MatroskaDemux@@QAEPAVFramedSource@@AAI@Z)
+     1>testMP3Receiver.obj : error LNK2001: unresolved external symbol "public: static class MPEG1or2AudioRTPSource * __cdecl MPEG1or2AudioRTPSource::createNew(class UsageEnvironment &,class Groupsock *,unsigned char,unsigned int)" (?createNew@MPEG1or2AudioRTPSource@@SAPAV1@AAVUsageEnvironment@@PAVGroupsock@@EI@Z)
+     1>testMP3Streamer.obj : error LNK2001: unresolved external symbol "public: static class MPEG1or2AudioRTPSink * __cdecl MPEG1or2AudioRTPSink::createNew(class UsageEnvironment &,class Groupsock *)" (?createNew@MPEG1or2AudioRTPSink@@SAPAV1@AAVUsageEnvironment@@PAVGroupsock@@@Z)
+     1>testMP3Streamer.obj : error LNK2001: unresolved external symbol "public: static class MP3FileSource * __cdecl MP3FileSource::createNew(class UsageEnvironment &,char const *)" (?createNew@MP3FileSource@@SAPAV1@AAVUsageEnvironment@@PBD@Z)
+     1>testMPEG1or2AudioVideoStreamer.obj : error LNK2001: unresolved external symbol "public: static class MPEG1or2VideoRTPSink * __cdecl MPEG1or2VideoRTPSink::createNew(class UsageEnvironment &,class Groupsock *)" (?createNew@MPEG1or2VideoRTPSink@@SAPAV1@AAVUsageEnvironment@@PAVGroupsock@@@Z)
+     1>testMPEG1or2AudioVideoStreamer.obj : error LNK2001: unresolved external symbol "public: static class MPEG1or2VideoStreamFramer * __cdecl MPEG1or2VideoStreamFramer::createNew(class UsageEnvironment &,class FramedSource *,bool,double)" (?createNew@MPEG1or2VideoStreamFramer@@SAPAV1@AAVUsageEnvironment@@PAVFramedSource@@_NN@Z)
+     1>testMPEG1or2AudioVideoStreamer.obj : error LNK2001: unresolved external symbol "public: static class MPEG1or2AudioStreamFramer * __cdecl MPEG1or2AudioStreamFramer::createNew(class UsageEnvironment &,class FramedSource *,bool)" (?createNew@MPEG1or2AudioStreamFramer@@SAPAV1@AAVUsageEnvironment@@PAVFramedSource@@_N@Z)
+     1>testMPEG1or2AudioVideoStreamer.obj : error LNK2001: unresolved external symbol "public: class MPEG1or2DemuxedElementaryStream * __thiscall MPEG1or2Demux::newVideoStream(void)" (?newVideoStream@MPEG1or2Demux@@QAEPAVMPEG1or2DemuxedElementaryStream@@XZ)
+     1>testMPEG1or2AudioVideoStreamer.obj : error LNK2001: unresolved external symbol "public: class MPEG1or2DemuxedElementaryStream * __thiscall MPEG1or2Demux::newAudioStream(void)" (?newAudioStream@MPEG1or2Demux@@QAEPAVMPEG1or2DemuxedElementaryStream@@XZ)
+     1>testMPEG1or2AudioVideoStreamer.obj : error LNK2001: unresolved external symbol "public: static class MPEG1or2Demux * __cdecl MPEG1or2Demux::createNew(class UsageEnvironment &,class FramedSource *,bool)" (?createNew@MPEG1or2Demux@@SAPAV1@AAVUsageEnvironment@@PAVFramedSource@@_N@Z)
+     1>testMPEG1or2ProgramToTransportStream.obj : error LNK2001: unresolved external symbol "public: static class MPEG2TransportStreamFromPESSource * __cdecl MPEG2TransportStreamFromPESSource::createNew(class UsageEnvironment &,class MPEG1or2DemuxedElementaryStream *)" (?createNew@MPEG2TransportStreamFromPESSource@@SAPAV1@AAVUsageEnvironment@@PAVMPEG1or2DemuxedElementaryStream@@@Z)
+     1>testMPEG1or2ProgramToTransportStream.obj : error LNK2001: unresolved external symbol "public: class MPEG1or2DemuxedElementaryStream * __thiscall MPEG1or2Demux::newRawPESStream(void)" (?newRawPESStream@MPEG1or2Demux@@QAEPAVMPEG1or2DemuxedElementaryStream@@XZ)
+     1>testMPEG1or2VideoReceiver.obj : error LNK2001: unresolved external symbol "public: static class MPEG1or2VideoRTPSource * __cdecl MPEG1or2VideoRTPSource::createNew(class UsageEnvironment &,class Groupsock *,unsigned char,unsigned int)" (?createNew@MPEG1or2VideoRTPSource@@SAPAV1@AAVUsageEnvironment@@PAVGroupsock@@EI@Z)
+     1>testMPEG2TransportReceiver.obj : error LNK2001: unresolved external symbol "public: static class SimpleRTPSource * __cdecl SimpleRTPSource::createNew(class UsageEnvironment &,class Groupsock *,unsigned char,unsigned int,char const *,unsigned int,bool)" (?createNew@SimpleRTPSource@@SAPAV1@AAVUsageEnvironment@@PAVGroupsock@@EIPBDI_N@Z)
+     1>testMPEG2TransportStreamer.obj : error LNK2001: unresolved external symbol "public: static class SimpleRTPSink * __cdecl SimpleRTPSink::createNew(class UsageEnvironment &,class Groupsock *,unsigned char,unsigned int,char const *,char const *,unsigned int,bool,bool)" (?createNew@SimpleRTPSink@@SAPAV1@AAVUsageEnvironment@@PAVGroupsock@@EIPBD2I_N3@Z)
+     1>testMPEG2TransportStreamer.obj : error LNK2001: unresolved external symbol "public: static class MPEG2TransportStreamFramer * __cdecl MPEG2TransportStreamFramer::createNew(class UsageEnvironment &,class FramedSource *)" (?createNew@MPEG2TransportStreamFramer@@SAPAV1@AAVUsageEnvironment@@PAVFramedSource@@@Z)
+     1>testMPEG2TransportStreamTrickPlay.obj : error LNK2001: unresolved external symbol "public: bool __thiscall MPEG2TransportStreamTrickModeFilter::seekTo(unsigned long,unsigned long)" (?seekTo@MPEG2TransportStreamTrickModeFilter@@QAE_NKK@Z)
+     1>testMPEG2TransportStreamTrickPlay.obj : error LNK2001: unresolved external symbol "public: static class MPEG2TransportStreamTrickModeFilter * __cdecl MPEG2TransportStreamTrickModeFilter::createNew(class UsageEnvironment &,class FramedSource *,class MPEG2TransportStreamIndexFile *,int)" (?createNew@MPEG2TransportStreamTrickModeFilter@@SAPAV1@AAVUsageEnvironment@@PAVFramedSource@@PAVMPEG2TransportStreamIndexFile@@H@Z)
+     1>testMPEG2TransportStreamTrickPlay.obj : error LNK2001: unresolved external symbol "public: int __thiscall MPEG2TransportStreamIndexFile::mpegVersion(void)" (?mpegVersion@MPEG2TransportStreamIndexFile@@QAEHXZ)
+     1>testMPEG2TransportStreamTrickPlay.obj : error LNK2001: unresolved external symbol "public: void __thiscall MPEG2TransportStreamIndexFile::lookupTSPacketNumFromNPT(float &,unsigned long &,unsigned long &)" (?lookupTSPacketNumFromNPT@MPEG2TransportStreamIndexFile@@QAEXAAMAAK1@Z)
+     1>testMPEG2TransportStreamTrickPlay.obj : error LNK2001: unresolved external symbol "public: static class MPEG2TransportStreamIndexFile * __cdecl MPEG2TransportStreamIndexFile::createNew(class UsageEnvironment &,char const *)" (?createNew@MPEG2TransportStreamIndexFile@@SAPAV1@AAVUsageEnvironment@@PBD@Z)
+     1>testMPEG4VideoStreamer.obj : error LNK2001: unresolved external symbol "public: static class MPEG4VideoStreamFramer * __cdecl MPEG4VideoStreamFramer::createNew(class UsageEnvironment &,class FramedSource *)" (?createNew@MPEG4VideoStreamFramer@@SAPAV1@AAVUsageEnvironment@@PAVFramedSource@@@Z)
+     1>testMPEG4VideoStreamer.obj : error LNK2001: unresolved external symbol "public: static class MPEG4ESVideoRTPSink * __cdecl MPEG4ESVideoRTPSink::createNew(class UsageEnvironment &,class Groupsock *,unsigned char,unsigned int)" (?createNew@MPEG4ESVideoRTPSink@@SAPAV1@AAVUsageEnvironment@@PAVGroupsock@@EI@Z)
+     1>testOggStreamer.obj : error LNK2001: unresolved external symbol "public: class RTPSink * __thiscall OggFile::createRTPSinkForTrackNumber(unsigned int,class Groupsock *,unsigned char)" (?createRTPSinkForTrackNumber@OggFile@@QAEPAVRTPSink@@IPAVGroupsock@@E@Z)
+     1>testOggStreamer.obj : error LNK2001: unresolved external symbol "public: class FramedSource * __thiscall OggFile::createSourceForStreaming(class FramedSource *,unsigned int,unsigned int &,unsigned int &)" (?createSourceForStreaming@OggFile@@QAEPAVFramedSource@@PAV2@IAAI1@Z)
+     1>testOggStreamer.obj : error LNK2001: unresolved external symbol "public: unsigned int __thiscall OggFile::numTracks(void)const " (?numTracks@OggFile@@QBEIXZ)
+     1>testOggStreamer.obj : error LNK2001: unresolved external symbol "public: class OggDemux * __thiscall OggFile::newDemux(void)" (?newDemux@OggFile@@QAEPAVOggDemux@@XZ)
+     1>testOggStreamer.obj : error LNK2001: unresolved external symbol "public: static void __cdecl OggFile::createNew(class UsageEnvironment &,char const *,void (__cdecl*)(class OggFile *,void *),void *)" (?createNew@OggFile@@SAXAAVUsageEnvironment@@PBDP6AXPAV1@PAX@Z3@Z)
+     1>testOggStreamer.obj : error LNK2001: unresolved external symbol "public: class FramedSource * __thiscall OggDemux::newDemuxedTrack(unsigned int &)" (?newDemuxedTrack@OggDemux@@QAEPAVFramedSource@@AAI@Z)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: static class MPEG4VideoFileServerMediaSubsession * __cdecl MPEG4VideoFileServerMediaSubsession::createNew(class UsageEnvironment &,char const *,bool)" (?createNew@MPEG4VideoFileServerMediaSubsession@@SAPAV1@AAVUsageEnvironment@@PBD_N@Z)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: static class DVVideoFileServerMediaSubsession * __cdecl DVVideoFileServerMediaSubsession::createNew(class UsageEnvironment &,char const *,bool)" (?createNew@DVVideoFileServerMediaSubsession@@SAPAV1@AAVUsageEnvironment@@PBD_N@Z)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: static class ADTSAudioFileServerMediaSubsession * __cdecl ADTSAudioFileServerMediaSubsession::createNew(class UsageEnvironment &,char const *,bool)" (?createNew@ADTSAudioFileServerMediaSubsession@@SAPAV1@AAVUsageEnvironment@@PBD_N@Z)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: class ServerMediaSubsession * __thiscall MatroskaFileServerDemux::newServerMediaSubsession(void)" (?newServerMediaSubsession@MatroskaFileServerDemux@@QAEPAVServerMediaSubsession@@XZ)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: static void __cdecl MatroskaFileServerDemux::createNew(class UsageEnvironment &,char const *,void (__cdecl*)(class MatroskaFileServerDemux *,void *),void *,char const *)" (?createNew@MatroskaFileServerDemux@@SAXAAVUsageEnvironment@@PBDP6AXPAV1@PAX@Z31@Z)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: static class H264VideoFileServerMediaSubsession * __cdecl H264VideoFileServerMediaSubsession::createNew(class UsageEnvironment &,char const *,bool)" (?createNew@H264VideoFileServerMediaSubsession@@SAPAV1@AAVUsageEnvironment@@PBD_N@Z)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: class ServerMediaSubsession * __thiscall OggFileServerDemux::newServerMediaSubsession(void)" (?newServerMediaSubsession@OggFileServerDemux@@QAEPAVServerMediaSubsession@@XZ)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: static void __cdecl OggFileServerDemux::createNew(class UsageEnvironment &,char const *,void (__cdecl*)(class OggFileServerDemux *,void *),void *)" (?createNew@OggFileServerDemux@@SAXAAVUsageEnvironment@@PBDP6AXPAV1@PAX@Z3@Z)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: unsigned short __thiscall RTSPServer::httpServerPortNum(void)const " (?httpServerPortNum@RTSPServer@@QBEGXZ)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: bool __thiscall RTSPServer::setUpTunnelingOverHTTP(class Port)" (?setUpTunnelingOverHTTP@RTSPServer@@QAE_NVPort@@@Z)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: class ServerMediaSubsession * __thiscall MPEG1or2FileServerDemux::newAC3AudioServerMediaSubsession(void)" (?newAC3AudioServerMediaSubsession@MPEG1or2FileServerDemux@@QAEPAVServerMediaSubsession@@XZ)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: class ServerMediaSubsession * __thiscall MPEG1or2FileServerDemux::newVideoServerMediaSubsession(bool,double)" (?newVideoServerMediaSubsession@MPEG1or2FileServerDemux@@QAEPAVServerMediaSubsession@@_NN@Z)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: class ServerMediaSubsession * __thiscall MPEG1or2FileServerDemux::newAudioServerMediaSubsession(void)" (?newAudioServerMediaSubsession@MPEG1or2FileServerDemux@@QAEPAVServerMediaSubsession@@XZ)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: static class MPEG1or2FileServerDemux * __cdecl MPEG1or2FileServerDemux::createNew(class UsageEnvironment &,char const *,bool)" (?createNew@MPEG1or2FileServerDemux@@SAPAV1@AAVUsageEnvironment@@PBD_N@Z)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: static class AC3AudioFileServerMediaSubsession * __cdecl AC3AudioFileServerMediaSubsession::createNew(class UsageEnvironment &,char const *,bool)" (?createNew@AC3AudioFileServerMediaSubsession@@SAPAV1@AAVUsageEnvironment@@PBD_N@Z)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: static class WAVAudioFileServerMediaSubsession * __cdecl WAVAudioFileServerMediaSubsession::createNew(class UsageEnvironment &,char const *,bool,bool)" (?createNew@WAVAudioFileServerMediaSubsession@@SAPAV1@AAVUsageEnvironment@@PBD_N2@Z)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: static class MPEG1or2VideoFileServerMediaSubsession * __cdecl MPEG1or2VideoFileServerMediaSubsession::createNew(class UsageEnvironment &,char const *,bool,bool,double)" (?createNew@MPEG1or2VideoFileServerMediaSubsession@@SAPAV1@AAVUsageEnvironment@@PBD_N2N@Z)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: static class MPEG2TransportFileServerMediaSubsession * __cdecl MPEG2TransportFileServerMediaSubsession::createNew(class UsageEnvironment &,char const *,char const *,bool)" (?createNew@MPEG2TransportFileServerMediaSubsession@@SAPAV1@AAVUsageEnvironment@@PBD1_N@Z)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: static class AMRAudioFileServerMediaSubsession * __cdecl AMRAudioFileServerMediaSubsession::createNew(class UsageEnvironment &,char const *,bool)" (?createNew@AMRAudioFileServerMediaSubsession@@SAPAV1@AAVUsageEnvironment@@PBD_N@Z)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: static class MPEG2TransportUDPServerMediaSubsession * __cdecl MPEG2TransportUDPServerMediaSubsession::createNew(class UsageEnvironment &,char const *,class Port const &,bool)" (?createNew@MPEG2TransportUDPServerMediaSubsession@@SAPAV1@AAVUsageEnvironment@@PBDABVPort@@_N@Z)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: static class MP3AudioFileServerMediaSubsession * __cdecl MP3AudioFileServerMediaSubsession::createNew(class UsageEnvironment &,char const *,bool,bool,class Interleaving *)" (?createNew@MP3AudioFileServerMediaSubsession@@SAPAV1@AAVUsageEnvironment@@PBD_N2PAVInterleaving@@@Z)
+     1>testOnDemandRTSPServer.obj : error LNK2001: unresolved external symbol "public: static class H265VideoFileServerMediaSubsession * __cdecl H265VideoFileServerMediaSubsession::createNew(class UsageEnvironment &,char const *,bool)" (?createNew@H265VideoFileServerMediaSubsession@@SAPAV1@AAVUsageEnvironment@@PBD_N@Z)
+     1>testRelay.obj : error LNK2001: unresolved external symbol "public: static class BasicUDPSource * __cdecl BasicUDPSource::createNew(class UsageEnvironment &,class Groupsock *)" (?createNew@BasicUDPSource@@SAPAV1@AAVUsageEnvironment@@PAVGroupsock@@@Z)
+     1>testRelay.obj : error LNK2001: unresolved external symbol "public: static class BasicUDPSink * __cdecl BasicUDPSink::createNew(class UsageEnvironment &,class Groupsock *,unsigned int)" (?createNew@BasicUDPSink@@SAPAV1@AAVUsageEnvironment@@PAVGroupsock@@I@Z)
+     1>testReplicator.obj : error LNK2001: unresolved external symbol "public: class FramedSource * __thiscall StreamReplicator::createStreamReplica(void)" (?createStreamReplica@StreamReplicator@@QAEPAVFramedSource@@XZ)
+     1>testReplicator.obj : error LNK2001: unresolved external symbol "public: static class StreamReplicator * __cdecl StreamReplicator::createNew(class UsageEnvironment &,class FramedSource *,bool)" (?createNew@StreamReplicator@@SAPAV1@AAVUsageEnvironment@@PAVFramedSource@@_N@Z)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "public: void __thiscall FramedSource::getNextFrame(unsigned char *,unsigned int,void (__cdecl*)(void *,unsigned int,unsigned int,struct timeval,unsigned int),void *,void (__cdecl*)(void *),void *)" (?getNextFrame@FramedSource@@QAEXPAEIP6AXPAXIIUtimeval@@I@Z1P6AX1@Z1@Z)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "private: virtual bool __thiscall MediaSink::isSink(void)const " (?isSink@MediaSink@@EBE_NXZ)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "protected: static void __cdecl MediaSink::onSourceClosure(void *)" (?onSourceClosure@MediaSink@@KAXPAX@Z)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "protected: virtual bool __thiscall MediaSink::sourceIsCompatibleWithUs(class MediaSource &)" (?sourceIsCompatibleWithUs@MediaSink@@MAE_NAAVMediaSource@@@Z)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "protected: virtual __thiscall MediaSink::~MediaSink(void)" (??1MediaSink@@MAE@XZ)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "protected: __thiscall MediaSink::MediaSink(class UsageEnvironment &)" (??0MediaSink@@IAE@AAVUsageEnvironment@@@Z)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall MediaSink::isRTPSink(void)const " (?isRTPSink@MediaSink@@UBE_NXZ)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall MediaSink::stopPlaying(void)" (?stopPlaying@MediaSink@@UAEXXZ)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "private: virtual bool __thiscall RTSPClient::isRTSPClient(void)const " (?isRTSPClient@RTSPClient@@EBE_NXZ)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "protected: virtual bool __thiscall RTSPClient::setRequestFields(class RTSPClient::RequestRecord *,char * &,bool &,char const * &,char * &,bool &)" (?setRequestFields@RTSPClient@@MAE_NPAVRequestRecord@1@AAPADAA_NAAPBD12@Z)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "protected: virtual unsigned int __thiscall RTSPClient::sendRequest(class RTSPClient::RequestRecord *)" (?sendRequest@RTSPClient@@MAEIPAVRequestRecord@1@@Z)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "protected: virtual __thiscall RTSPClient::~RTSPClient(void)" (??1RTSPClient@@MAE@XZ)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "protected: __thiscall RTSPClient::RTSPClient(class UsageEnvironment &,char const *,int,char const *,unsigned short,int)" (??0RTSPClient@@IAE@AAVUsageEnvironment@@PBDH1GH@Z)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall Medium::isServerMediaSession(void)const " (?isServerMediaSession@Medium@@UBE_NXZ)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall Medium::isMediaSession(void)const " (?isMediaSession@Medium@@UBE_NXZ)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall Medium::isRTSPServer(void)const " (?isRTSPServer@Medium@@UBE_NXZ)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall Medium::isRTSPClient(void)const " (?isRTSPClient@Medium@@UBE_NXZ)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall Medium::isRTCPInstance(void)const " (?isRTCPInstance@Medium@@UBE_NXZ)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall Medium::isSink(void)const " (?isSink@Medium@@UBE_NXZ)
+     1>testRTSPClient.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall Medium::isSource(void)const " (?isSource@Medium@@UBE_NXZ)
+     1>testWAVAudioStreamer.obj : error LNK2001: unresolved external symbol "public: static class EndianSwap24 * __cdecl EndianSwap24::createNew(class UsageEnvironment &,class FramedSource *)" (?createNew@EndianSwap24@@SAPAV1@AAVUsageEnvironment@@PAVFramedSource@@@Z)
+     1>testWAVAudioStreamer.obj : error LNK2001: unresolved external symbol "public: static class EndianSwap16 * __cdecl EndianSwap16::createNew(class UsageEnvironment &,class FramedSource *)" (?createNew@EndianSwap16@@SAPAV1@AAVUsageEnvironment@@PAVFramedSource@@@Z)
+     1>testWAVAudioStreamer.obj : error LNK2001: unresolved external symbol "public: unsigned char __thiscall WAVAudioFileSource::getAudioFormat(void)" (?getAudioFormat@WAVAudioFileSource@@QAEEXZ)
+     1>testWAVAudioStreamer.obj : error LNK2001: unresolved external symbol "public: static class WAVAudioFileSource * __cdecl WAVAudioFileSource::createNew(class UsageEnvironment &,char const *)" (?createNew@WAVAudioFileSource@@SAPAV1@AAVUsageEnvironment@@PBD@Z)
+     1>vobStreamer.obj : error LNK2001: unresolved external symbol "public: static class AC3AudioRTPSink * __cdecl AC3AudioRTPSink::createNew(class UsageEnvironment &,class Groupsock *,unsigned char,unsigned int)" (?createNew@AC3AudioRTPSink@@SAPAV1@AAVUsageEnvironment@@PAVGroupsock@@EI@Z)
+     1>vobStreamer.obj : error LNK2001: unresolved external symbol "public: unsigned int __thiscall AC3AudioStreamFramer::samplingRate(void)" (?samplingRate@AC3AudioStreamFramer@@QAEIXZ)
+     1>vobStreamer.obj : error LNK2001: unresolved external symbol "public: static class AC3AudioStreamFramer * __cdecl AC3AudioStreamFramer::createNew(class UsageEnvironment &,class FramedSource *,unsigned char)" (?createNew@AC3AudioStreamFramer@@SAPAV1@AAVUsageEnvironment@@PAVFramedSource@@E@Z)
+     1>vobStreamer.obj : error LNK2001: unresolved external symbol "public: class MPEG1or2DemuxedElementaryStream * __thiscall MPEG1or2Demux::newElementaryStream(unsigned char)" (?newElementaryStream@MPEG1or2Demux@@QAEPAVMPEG1or2DemuxedElementaryStream@@E@Z)
+     1>C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\Release\testProgs.exe : fatal error LNK1120: 183 unresolved externals
+     1>Done Building Project "C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\testProgs\testProgs.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:17.57

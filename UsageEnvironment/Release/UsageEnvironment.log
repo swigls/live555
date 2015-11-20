@@ -1,0 +1,17 @@
+﻿Build started 2015-11-16 오후 12:03:52.
+     1>Project "C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\UsageEnvironment\UsageEnvironment.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt HashTable.cpp strDup.cpp UsageEnvironment.cpp
+         HashTable.cpp
+         strDup.cpp
+         UsageEnvironment.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\Release\UsageEnvironment.lib" /NOLOGO /LTCG Release\HashTable.obj
+         Release\strDup.obj
+         Release\UsageEnvironment.obj
+         UsageEnvironment.vcxproj -> C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\Release\UsageEnvironment.lib
+     1>Done Building Project "C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\UsageEnvironment\UsageEnvironment.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.80

@@ -1,0 +1,25 @@
+﻿Build started 2015-11-12 오전 10:33:05.
+     1>Project "C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\groupsock\groupsock.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GroupEId.cpp Groupsock.cpp GroupsockHelper.cpp IOHandlers.cpp NetAddress.cpp NetInterface.cpp
+         NetInterface.cpp
+         NetAddress.cpp
+         IOHandlers.cpp
+         GroupsockHelper.cpp
+     1>c:\users\p35\documents\visual studio 2013\projects\live555\groupsock\groupsockhelper.cpp(785): warning C4244: '=' : conversion from 'time_t' to 'long', possible loss of data
+         Groupsock.cpp
+         GroupEId.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\Debug\groupsock.lib" /NOLOGO Debug\GroupEId.obj
+         Debug\Groupsock.obj
+         Debug\GroupsockHelper.obj
+         Debug\IOHandlers.obj
+         Debug\NetAddress.obj
+         Debug\NetInterface.obj
+         groupsock.vcxproj -> C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\Debug\groupsock.lib
+     1>Done Building Project "C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\groupsock\groupsock.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.13

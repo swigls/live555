@@ -1,0 +1,24 @@
+﻿Build started 2015-11-12 오전 10:54:05.
+     1>Project "C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\BasicUsageEnvironment\BasicUsageEnvironment.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BasicHashTable.cpp BasicTaskScheduler.cpp BasicTaskScheduler0.cpp BasicUsageEnvironment.cpp BasicUsageEnvironment0.cpp DelayQueue.cpp
+         DelayQueue.cpp
+         BasicUsageEnvironment0.cpp
+         BasicUsageEnvironment.cpp
+         BasicTaskScheduler0.cpp
+         BasicTaskScheduler.cpp
+         BasicHashTable.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\Debug\BasicUsageEnvironment.lib" /NOLOGO Debug\BasicHashTable.obj
+         Debug\BasicTaskScheduler.obj
+         Debug\BasicTaskScheduler0.obj
+         Debug\BasicUsageEnvironment.obj
+         Debug\BasicUsageEnvironment0.obj
+         Debug\DelayQueue.obj
+         BasicUsageEnvironment.vcxproj -> C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\Debug\BasicUsageEnvironment.lib
+     1>Done Building Project "C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\BasicUsageEnvironment\BasicUsageEnvironment.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.04

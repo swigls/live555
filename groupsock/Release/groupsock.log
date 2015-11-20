@@ -1,0 +1,27 @@
+﻿Build started 2015-11-16 오후 1:10:01.
+     1>Project "C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\groupsock\groupsock.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GroupEId.cpp Groupsock.cpp GroupsockHelper.cpp IOHandlers.cpp NetAddress.cpp NetInterface.cpp
+         GroupEId.cpp
+         Groupsock.cpp
+         GroupsockHelper.cpp
+     1>GroupsockHelper.cpp(785): warning C4244: '=' : conversion from 'time_t' to 'long', possible loss of data
+         IOHandlers.cpp
+         NetAddress.cpp
+         NetInterface.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt inet.c
+         inet.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\Release\groupsock.lib" /NOLOGO /LTCG Release\GroupEId.obj
+         Release\Groupsock.obj
+         Release\GroupsockHelper.obj
+         Release\inet.obj
+         Release\IOHandlers.obj
+         Release\NetAddress.obj
+         Release\NetInterface.obj
+         groupsock.vcxproj -> C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\Release\groupsock.lib
+     1>Done Building Project "C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\groupsock\groupsock.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.16
