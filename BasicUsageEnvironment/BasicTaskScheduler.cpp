@@ -21,10 +21,23 @@ along with this library; if not, write to the Free Software Foundation, Inc.,
 #include "BasicUsageEnvironment.hh"
 #include "HandlerSet.hh"
 #include <stdio.h>
+#include <process.h>
 #if defined(_QNX4)
 #include <sys/select.h>
 #include <unix.h>
 #endif
+
+void testtest(void* test) {
+	void** newtest = (void**)test;
+	fprintf(stdout, "yes test11");
+	HandlerDescriptor* handler = (HandlerDescriptor*)(newtest[0]);
+	void* cd = newtest[1];
+	fprintf(stdout, "yes test22");
+	int someint = *((int*)(newtest[2]));
+	fprintf(stdout, "yes test33");
+	(*handler->handlerProc)(handler->clientData, someint);
+	_endthread();
+}
 
 ////////// BasicTaskScheduler //////////
 
@@ -123,7 +136,7 @@ void BasicTaskScheduler::SingleStep(unsigned maxDelayTime) {
 	fprintf(stderr, "\n");
 #endif
 	internalError();
-      }
+	}
   }
 
   // Call the handler function for one readable socket:
@@ -150,7 +163,13 @@ void BasicTaskScheduler::SingleStep(unsigned maxDelayTime) {
       fLastHandledSocketNum = sock;
           // Note: we set "fLastHandledSocketNum" before calling the handler,
           // in case the handler calls "doEventLoop()" reentrantly.
-      (*handler->handlerProc)(handler->clientData, resultConditionSet);
+	  void** test = (void**)malloc(sizeof(int*) * 3);
+
+	  //int someint = *(int*)newtest[2];
+	  test[0] = handler;
+	  test[1] = &(handler->clientData);
+	  test[2] = &(resultConditionSet);
+	  _beginthread(testtest, 0, test);//(*handler->handlerProc)(handler->clientData, resultConditionSet);
       break;
     }
   }
@@ -165,11 +184,18 @@ void BasicTaskScheduler::SingleStep(unsigned maxDelayTime) {
       if (FD_ISSET(sock, &writeSet) && FD_ISSET(sock, &fWriteSet)/*sanity check*/) resultConditionSet |= SOCKET_WRITABLE;
       if (FD_ISSET(sock, &exceptionSet) && FD_ISSET(sock, &fExceptionSet)/*sanity check*/) resultConditionSet |= SOCKET_EXCEPTION;
       if ((resultConditionSet&handler->conditionSet) != 0 && handler->handlerProc != NULL) {
-	fLastHandledSocketNum = sock;
-	    // Note: we set "fLastHandledSocketNum" before calling the handler,
-            // in case the handler calls "doEventLoop()" reentrantly.
-	(*handler->handlerProc)(handler->clientData, resultConditionSet);
-	break;
+		fLastHandledSocketNum = sock;
+			// Note: we set "fLastHandledSocketNum" before calling the handler,
+				// in case the handler calls "doEventLoop()" reentrantly.
+	  void** test = (void**)malloc(sizeof(int*) * 3);
+
+	  //int someint = *(int*)newtest[2];
+	  test[0] = handler;
+	  test[1] = &(handler->clientData);
+	  test[2] = &(resultConditionSet);
+	  _beginthread(testtest, 0, test);//(*handler->handlerProc)(handler->clientData, resultConditionSet);
+		//(*handler->handlerProc)(handler->clientData, resultConditionSet);
+		break;
       }
     }
     if (handler == NULL) fLastHandledSocketNum = -1;//because we didn't call a handler

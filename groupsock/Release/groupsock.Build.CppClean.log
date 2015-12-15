@@ -5,10 +5,20 @@ c:\users\p35\documents\visual studio 2013\projects\live555\groupsock\release\ioh
 c:\users\p35\documents\visual studio 2013\projects\live555\groupsock\release\groupsockhelper.obj
 c:\users\p35\documents\visual studio 2013\projects\live555\groupsock\release\groupsock.obj
 c:\users\p35\documents\visual studio 2013\projects\live555\groupsock\release\groupeid.obj
+c:\users\p35\documents\visual studio 2013\projects\live555\groupsock\release\inet.obj
 c:\users\p35\documents\visual studio 2013\projects\live555\release\groupsock.lib
-c:\users\p35\documents\visual studio 2013\projects\live555\groupsock\release\groupsock.tlog\cl.command.1.tlog
-c:\users\p35\documents\visual studio 2013\projects\live555\groupsock\release\groupsock.tlog\cl.read.1.tlog
-c:\users\p35\documents\visual studio 2013\projects\live555\groupsock\release\groupsock.tlog\cl.write.1.tlog
-c:\users\p35\documents\visual studio 2013\projects\live555\groupsock\release\groupsock.tlog\lib-link.read.1.tlog
-c:\users\p35\documents\visual studio 2013\projects\live555\groupsock\release\groupsock.tlog\lib-link.write.1.tlog
-c:\users\p35\documents\visual studio 2013\projects\live555\groupsock\release\groupsock.tlog\lib.command.1.tlog
+c:\users\asus\downloads\li5\live555\groupsock\release\groupeid.obj
+c:\users\asus\downloads\li5\live555\groupsock\release\groupsock.obj
+c:\users\asus\downloads\li5\live555\groupsock\release\groupsockhelper.obj
+c:\users\asus\downloads\li5\live555\groupsock\release\inet.obj
+c:\users\asus\downloads\li5\live555\groupsock\release\iohandlers.obj
+c:\users\asus\downloads\li5\live555\groupsock\release\netaddress.obj
+c:\users\asus\downloads\li5\live555\groupsock\release\netinterface.obj
+c:\users\asus\downloads\li5\live555\groupsock\release\vc120.pdb
+c:\users\asus\downloads\li5\live555\release\groupsock.lib
+c:\users\asus\downloads\li5\live555\groupsock\release\groupsock.tlog\cl.command.1.tlog
+c:\users\asus\downloads\li5\live555\groupsock\release\groupsock.tlog\cl.read.1.tlog
+c:\users\asus\downloads\li5\live555\groupsock\release\groupsock.tlog\cl.write.1.tlog
+c:\users\asus\downloads\li5\live555\groupsock\release\groupsock.tlog\lib-link.read.1.tlog
+c:\users\asus\downloads\li5\live555\groupsock\release\groupsock.tlog\lib-link.write.1.tlog
+c:\users\asus\downloads\li5\live555\groupsock\release\groupsock.tlog\lib.command.1.tlog

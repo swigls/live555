@@ -1,7 +1,7 @@
-﻿Build started 2015-11-12 오전 10:56:40.
-     1>Project "C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\liveMedia\liveMedia.vcxproj" on node 2 (Build target(s)).
+﻿빌드 시작: 15-12-15 오후 6:09:20
+     1>5 노드의 "C:\Users\ASUS\Downloads\li5\live555\liveMedia\liveMedia.vcxproj" 프로젝트(Rebuild 대상)입니다.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AC3AudioFileServerMediaSubsession.cpp AC3AudioRTPSink.cpp AC3AudioRTPSource.cpp AC3AudioStreamFramer.cpp ADTSAudioFileServerMediaSubsession.cpp ADTSAudioFileSource.cpp AMRAudioFileServerMediaSubsession.cpp AMRAudioFileSink.cpp AMRAudioFileSource.cpp AMRAudioRTPSink.cpp AMRAudioRTPSource.cpp AMRAudioSource.cpp AudioInputDevice.cpp AudioRTPSink.cpp AVIFileSink.cpp Base64.cpp BasicUDPSink.cpp BasicUDPSource.cpp BitVector.cpp ByteStreamFileSource.cpp ByteStreamMemoryBufferSource.cpp ByteStreamMultiFileSource.cpp DeviceSource.cpp DigestAuthentication.cpp DVVideoFileServerMediaSubsession.cpp DVVideoRTPSink.cpp DVVideoRTPSource.cpp DVVideoStreamFramer.cpp EBMLNumber.cpp FileServerMediaSubsession.cpp FileSink.cpp FramedFileSource.cpp FramedFilter.cpp FramedSource.cpp GenericMediaServer.cpp GSMAudioRTPSink.cpp H261VideoRTPSource.cpp H263plusVideoFileServerMediaSubsession.cpp H263plusVideoRTPSink.cpp H263plusVideoRTPSource.cpp H263plusVideoStreamFramer.cpp H263plusVideoStreamParser.cpp H264or5VideoFileSink.cpp H264or5VideoRTPSink.cpp H264or5VideoStreamDiscreteFramer.cpp H264or5VideoStreamFramer.cpp H264VideoFileServerMediaSubsession.cpp H264VideoFileSink.cpp H264VideoRTPSink.cpp H264VideoRTPSource.cpp H264VideoStreamDiscreteFramer.cpp H264VideoStreamFramer.cpp H265VideoFileServerMediaSubsession.cpp H265VideoFileSink.cpp H265VideoRTPSink.cpp H265VideoRTPSource.cpp H265VideoStreamDiscreteFramer.cpp H265VideoStreamFramer.cpp InputFile.cpp JPEGVideoRTPSink.cpp JPEGVideoRTPSource.cpp JPEGVideoSource.cpp Locale.cpp MatroskaDemuxedTrack.cpp MatroskaFile.cpp MatroskaFileParser.cpp MatroskaFileServerDemux.cpp MatroskaFileServerMediaSubsession.cpp Media.cpp MediaSession.cpp MediaSink.cpp MediaSource.cpp MP3ADU.cpp MP3ADUdescriptor.cpp MP3ADUinterleaving.cpp MP3ADURTPSink.cpp MP3ADURTPSource.cpp MP3ADUTranscoder.cpp MP3AudioFileServerMediaSubsession.cpp MP3AudioMatroskaFileServerMediaSubsession.cpp MP3FileSource.cpp MP3Internals.cpp MP3InternalsHuffman.cpp MP3InternalsHuffmanTable.cpp MP3StreamState.cpp MP3Transcoder.cpp MPEG1or2AudioRTPSink.cpp MPEG1or2AudioRTPSource.cpp MPEG1or2AudioStreamFramer.cpp MPEG1or2Demux.cpp MPEG1or2DemuxedElementaryStream.cpp MPEG1or2DemuxedServerMediaSubsession.cpp MPEG1or2FileServerDemux.cpp MPEG1or2VideoFileServerMediaSubsession.cpp MPEG1or2VideoRTPSink.cpp MPEG1or2VideoRTPSource.cpp MPEG1or2VideoStreamDiscreteFramer.cpp MPEG1or2VideoStreamFramer.cpp MPEG2IndexFromTransportStream.cpp MPEG2TransportFileServerMediaSubsession.cpp MPEG2TransportStreamFramer.cpp MPEG2TransportStreamFromESSource.cpp MPEG2TransportStreamFromPESSource.cpp MPEG2TransportStreamIndexFile.cpp MPEG2TransportStreamMultiplexor.cpp MPEG2TransportStreamTrickModeFilter.cpp MPEG2TransportUDPServerMediaSubsession.cpp MPEG4ESVideoRTPSink.cpp MPEG4ESVideoRTPSource.cpp MPEG4GenericRTPSink.cpp MPEG4GenericRTPSource.cpp MPEG4LATMAudioRTPSink.cpp MPEG4LATMAudioRTPSource.cpp MPEG4VideoFileServerMediaSubsession.cpp MPEG4VideoStreamDiscreteFramer.cpp MPEG4VideoStreamFramer.cpp MPEGVideoStreamFramer.cpp MPEGVideoStreamParser.cpp MultiFramedRTPSink.cpp MultiFramedRTPSource.cpp OggDemuxedTrack.cpp OggFile.cpp OggFileParser.cpp OggFileServerDemux.cpp OggFileServerMediaSubsession.cpp OggFileSink.cpp OnDemandServerMediaSubsession.cpp ourMD5.cpp OutputFile.cpp PassiveServerMediaSubsession.cpp ProxyServerMediaSession.cpp QCELPAudioRTPSource.cpp QuickTimeFileSink.cpp QuickTimeGenericRTPSource.cpp RTCP.cpp RTPInterface.cpp RTPSink.cpp RTPSource.cpp RTSPClient.cpp RTSPCommon.cpp RTSPRegisterSender.cpp RTSPServer.cpp RTSPServerSupportingHTTPStreaming.cpp ServerMediaSession.cpp SimpleRTPSink.cpp SimpleRTPSource.cpp SIPClient.cpp StreamParser.cpp StreamReplicator.cpp T140TextRTPSink.cpp TCPStreamSink.cpp TextRTPSink.cpp TheoraVideoRTPSink.cpp TheoraVideoRTPSource.cpp uLawAudioFilter.cpp VideoRTPSink.cpp VorbisAudioRTPSink.cpp VorbisAudioRTPSource.cpp VP8VideoRTPSink.cpp VP8VideoRTPSource.cpp VP9VideoRTPSink.cpp VP9VideoRTPSource.cpp WAVAudioFileServerMediaSubsession.cpp WAVAudioFileSource.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\liveMedia.pdb" /Gd /TP /analyze- /errorReport:prompt AC3AudioFileServerMediaSubsession.cpp AC3AudioRTPSink.cpp AC3AudioRTPSource.cpp AC3AudioStreamFramer.cpp ADTSAudioFileServerMediaSubsession.cpp ADTSAudioFileSource.cpp AMRAudioFileServerMediaSubsession.cpp AMRAudioFileSink.cpp AMRAudioFileSource.cpp AMRAudioRTPSink.cpp AMRAudioRTPSource.cpp AMRAudioSource.cpp AudioInputDevice.cpp AudioRTPSink.cpp AVIFileSink.cpp Base64.cpp BasicUDPSink.cpp BasicUDPSource.cpp BitVector.cpp ByteStreamFileSource.cpp ByteStreamMemoryBufferSource.cpp ByteStreamMultiFileSource.cpp DeviceSource.cpp DigestAuthentication.cpp DVVideoFileServerMediaSubsession.cpp DVVideoRTPSink.cpp DVVideoRTPSource.cpp DVVideoStreamFramer.cpp EBMLNumber.cpp FileServerMediaSubsession.cpp FileSink.cpp FramedFileSource.cpp FramedFilter.cpp FramedSource.cpp GenericMediaServer.cpp GSMAudioRTPSink.cpp H261VideoRTPSource.cpp H263plusVideoFileServerMediaSubsession.cpp H263plusVideoRTPSink.cpp H263plusVideoRTPSource.cpp H263plusVideoStreamFramer.cpp H263plusVideoStreamParser.cpp H264or5VideoFileSink.cpp H264or5VideoRTPSink.cpp H264or5VideoStreamDiscreteFramer.cpp H264or5VideoStreamFramer.cpp H264VideoFileServerMediaSubsession.cpp H264VideoFileSink.cpp H264VideoRTPSink.cpp H264VideoRTPSource.cpp H264VideoStreamDiscreteFramer.cpp H264VideoStreamFramer.cpp H265VideoFileServerMediaSubsession.cpp H265VideoFileSink.cpp H265VideoRTPSink.cpp H265VideoRTPSource.cpp H265VideoStreamDiscreteFramer.cpp H265VideoStreamFramer.cpp InputFile.cpp JPEGVideoRTPSink.cpp JPEGVideoRTPSource.cpp JPEGVideoSource.cpp Locale.cpp MatroskaDemuxedTrack.cpp MatroskaFile.cpp MatroskaFileParser.cpp MatroskaFileServerDemux.cpp MatroskaFileServerMediaSubsession.cpp Media.cpp MediaSession.cpp MediaSink.cpp MediaSource.cpp MP3ADU.cpp MP3ADUdescriptor.cpp MP3ADUinterleaving.cpp MP3ADURTPSink.cpp MP3ADURTPSource.cpp MP3ADUTranscoder.cpp MP3AudioFileServerMediaSubsession.cpp MP3AudioMatroskaFileServerMediaSubsession.cpp MP3FileSource.cpp MP3Internals.cpp MP3InternalsHuffman.cpp MP3InternalsHuffmanTable.cpp MP3StreamState.cpp MP3Transcoder.cpp MPEG1or2AudioRTPSink.cpp MPEG1or2AudioRTPSource.cpp MPEG1or2AudioStreamFramer.cpp MPEG1or2Demux.cpp MPEG1or2DemuxedElementaryStream.cpp MPEG1or2DemuxedServerMediaSubsession.cpp MPEG1or2FileServerDemux.cpp MPEG1or2VideoFileServerMediaSubsession.cpp MPEG1or2VideoRTPSink.cpp MPEG1or2VideoRTPSource.cpp MPEG1or2VideoStreamDiscreteFramer.cpp MPEG1or2VideoStreamFramer.cpp MPEG2IndexFromTransportStream.cpp MPEG2TransportFileServerMediaSubsession.cpp MPEG2TransportStreamFramer.cpp MPEG2TransportStreamFromESSource.cpp MPEG2TransportStreamFromPESSource.cpp MPEG2TransportStreamIndexFile.cpp MPEG2TransportStreamMultiplexor.cpp MPEG2TransportStreamTrickModeFilter.cpp MPEG2TransportUDPServerMediaSubsession.cpp MPEG4ESVideoRTPSink.cpp MPEG4ESVideoRTPSource.cpp MPEG4GenericRTPSink.cpp MPEG4GenericRTPSource.cpp MPEG4LATMAudioRTPSink.cpp MPEG4LATMAudioRTPSource.cpp MPEG4VideoFileServerMediaSubsession.cpp MPEG4VideoStreamDiscreteFramer.cpp MPEG4VideoStreamFramer.cpp MPEGVideoStreamFramer.cpp MPEGVideoStreamParser.cpp MultiFramedRTPSink.cpp MultiFramedRTPSource.cpp OggDemuxedTrack.cpp OggFile.cpp OggFileParser.cpp OggFileServerDemux.cpp OggFileServerMediaSubsession.cpp OggFileSink.cpp OnDemandServerMediaSubsession.cpp ourMD5.cpp OutputFile.cpp PassiveServerMediaSubsession.cpp ProxyServerMediaSession.cpp QCELPAudioRTPSource.cpp QuickTimeFileSink.cpp QuickTimeGenericRTPSource.cpp RTCP.cpp RTPInterface.cpp RTPSink.cpp RTPSource.cpp RTSPClient.cpp RTSPCommon.cpp RTSPRegisterSender.cpp RTSPServer.cpp RTSPServerSupportingHTTPStreaming.cpp ServerMediaSession.cpp SimpleRTPSink.cpp SimpleRTPSource.cpp SIPClient.cpp StreamParser.cpp StreamReplicator.cpp T140TextRTPSink.cpp TCPStreamSink.cpp TextRTPSink.cpp TheoraVideoRTPSink.cpp TheoraVideoRTPSource.cpp uLawAudioFilter.cpp VideoRTPSink.cpp VorbisAudioRTPSink.cpp VorbisAudioRTPSource.cpp VP8VideoRTPSink.cpp VP8VideoRTPSource.cpp VP9VideoRTPSink.cpp VP9VideoRTPSource.cpp WAVAudioFileServerMediaSubsession.cpp WAVAudioFileSource.cpp
          AC3AudioFileServerMediaSubsession.cpp
          AC3AudioRTPSink.cpp
          AC3AudioRTPSource.cpp
@@ -22,7 +22,7 @@
          BasicUDPSource.cpp
          BitVector.cpp
          ByteStreamFileSource.cpp
-         Compiling...
+         컴파일하고 있습니다...
          ByteStreamMemoryBufferSource.cpp
          ByteStreamMultiFileSource.cpp
          DeviceSource.cpp
@@ -43,14 +43,14 @@
          H263plusVideoFileServerMediaSubsession.cpp
          H263plusVideoRTPSink.cpp
          H263plusVideoRTPSource.cpp
-         Compiling...
+         컴파일하고 있습니다...
          H263plusVideoStreamFramer.cpp
          H263plusVideoStreamParser.cpp
          H264or5VideoFileSink.cpp
          H264or5VideoRTPSink.cpp
          H264or5VideoStreamDiscreteFramer.cpp
          H264or5VideoStreamFramer.cpp
-     1>H264or5VideoStreamFramer.cpp(670): warning C4018: '<' : signed/unsigned mismatch
+     1>H264or5VideoStreamFramer.cpp(670): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
          H264VideoFileServerMediaSubsession.cpp
          H264VideoFileSink.cpp
          H264VideoRTPSink.cpp
@@ -65,7 +65,7 @@
          H265VideoStreamFramer.cpp
          InputFile.cpp
          JPEGVideoRTPSink.cpp
-         Compiling...
+         컴파일하고 있습니다...
          JPEGVideoRTPSource.cpp
          JPEGVideoSource.cpp
          Locale.cpp
@@ -86,7 +86,7 @@
          MP3ADUTranscoder.cpp
          MP3AudioFileServerMediaSubsession.cpp
          MP3AudioMatroskaFileServerMediaSubsession.cpp
-         Compiling...
+         컴파일하고 있습니다...
          MP3FileSource.cpp
          MP3Internals.cpp
          MP3InternalsHuffman.cpp
@@ -107,7 +107,7 @@
          MPEG1or2VideoStreamFramer.cpp
          MPEG2IndexFromTransportStream.cpp
          MPEG2TransportFileServerMediaSubsession.cpp
-         Compiling...
+         컴파일하고 있습니다...
          MPEG2TransportStreamFramer.cpp
          MPEG2TransportStreamFromESSource.cpp
          MPEG2TransportStreamFromPESSource.cpp
@@ -128,7 +128,7 @@
          MPEGVideoStreamParser.cpp
          MultiFramedRTPSink.cpp
          MultiFramedRTPSource.cpp
-         Compiling...
+         컴파일하고 있습니다...
          OggDemuxedTrack.cpp
          OggFile.cpp
          OggFileParser.cpp
@@ -149,7 +149,7 @@
          RTPSource.cpp
          RTSPClient.cpp
          RTSPCommon.cpp
-         Compiling...
+         컴파일하고 있습니다...
          RTSPRegisterSender.cpp
          RTSPServer.cpp
          RTSPServerSupportingHTTPStreaming.cpp
@@ -170,15 +170,15 @@
          VorbisAudioRTPSource.cpp
          VP8VideoRTPSink.cpp
          VP8VideoRTPSource.cpp
-         Compiling...
+         컴파일하고 있습니다...
          VP9VideoRTPSink.cpp
          VP9VideoRTPSource.cpp
          WAVAudioFileServerMediaSubsession.cpp
          WAVAudioFileSource.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt rtcp_from_spec.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\liveMedia.pdb" /Gd /TC /analyze- /errorReport:prompt rtcp_from_spec.c
          rtcp_from_spec.c
        Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\Release\liveMedia.lib" /NOLOGO /LTCG Release\AC3AudioFileServerMediaSubsession.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\ASUS\Downloads\li5\live555\Release\liveMedia.lib" /NOLOGO /LTCG Release\AC3AudioFileServerMediaSubsession.obj
          Release\AC3AudioRTPSink.obj
          Release\AC3AudioRTPSource.obj
          Release\AC3AudioStreamFramer.obj
@@ -343,9 +343,9 @@
          Release\VP9VideoRTPSource.obj
          Release\WAVAudioFileServerMediaSubsession.obj
          Release\WAVAudioFileSource.obj
-         liveMedia.vcxproj -> C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\Release\liveMedia.lib
-     1>Done Building Project "C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\liveMedia\liveMedia.vcxproj" (Build target(s)).
+         liveMedia.vcxproj -> C:\Users\ASUS\Downloads\li5\live555\Release\liveMedia.lib
+     1>"C:\Users\ASUS\Downloads\li5\live555\liveMedia\liveMedia.vcxproj" 프로젝트를 빌드했습니다(Rebuild 대상).
 
-Build succeeded.
+빌드했습니다.
 
-Time Elapsed 00:01:02.51
+경과 시간: 00:06:05.44
