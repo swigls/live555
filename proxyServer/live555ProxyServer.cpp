@@ -62,9 +62,9 @@ int main(int argc, char** argv) {
   TaskScheduler* scheduler = BasicTaskScheduler::createNew();
   env = BasicUsageEnvironment::createNew(*scheduler);
 
-  *env << "LIVE555 Proxy Server\n"
-       << "\t(LIVE555 Streaming Media library version "
-       << LIVEMEDIA_LIBRARY_VERSION_STRING << ")\n\n";
+  *env << "Creative Integrated Design 1\n"
+       << "\tTeam G - Yejung Kim, HyunSeung Lee, Taeho Jeong "
+       << "\n\n";
 
   // Check command-line arguments: optional parameters, then one or more rtsp:// URLs (of streams to be proxied):
   progName = argv[0];
@@ -186,9 +186,9 @@ int main(int argc, char** argv) {
     char const* proxiedStreamURL = argv[i];
     char streamName[30];
     if (argc == 2) {
-      sprintf(streamName, "%s", "proxyStream"); // there's just one stream; give it this name
+      sprintf(streamName, "%s", "stream"); // there's just one stream; give it this name
     } else {
-      sprintf(streamName, "proxyStream-%d", i); // there's more than one stream; distinguish them by name
+      sprintf(streamName, "stream-%d", i); // there's more than one stream; distinguish them by name
     }
     ServerMediaSession* sms
       = ProxyServerMediaSession::createNew(*env, rtspServer,
@@ -197,7 +197,7 @@ int main(int argc, char** argv) {
     rtspServer->addServerMediaSession(sms);
 
     char* proxyStreamURL = rtspServer->rtspURL(sms);
-    *env << "RTSP stream, proxying the stream \"" << proxiedStreamURL << "\"\n";
+    *env << "RTSP stream, sending the stream from \"" << proxiedStreamURL << "\"\n";
     *env << "\tPlay this stream using the URL: " << proxyStreamURL << "\n";
     delete[] proxyStreamURL;
   }
