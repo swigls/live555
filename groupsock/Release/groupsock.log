@@ -1,27 +1,27 @@
-﻿Build started 2015-11-16 오후 1:10:01.
-     1>Project "C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\groupsock\groupsock.vcxproj" on node 2 (Rebuild target(s)).
+﻿빌드 시작: 15-12-15 오후 9:32:08
+     1>2 노드의 "C:\Users\ASUS\Downloads\li5\live555\groupsock\groupsock.vcxproj" 프로젝트(Rebuild 대상)입니다.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GroupEId.cpp Groupsock.cpp GroupsockHelper.cpp IOHandlers.cpp NetAddress.cpp NetInterface.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\groupsock.pdb" /Gd /TP /analyze- /errorReport:prompt GroupEId.cpp Groupsock.cpp GroupsockHelper.cpp IOHandlers.cpp NetAddress.cpp NetInterface.cpp
          GroupEId.cpp
          Groupsock.cpp
          GroupsockHelper.cpp
-     1>GroupsockHelper.cpp(785): warning C4244: '=' : conversion from 'time_t' to 'long', possible loss of data
+     1>GroupsockHelper.cpp(785): warning C4244: '=': 'time_t'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
          IOHandlers.cpp
          NetAddress.cpp
          NetInterface.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt inet.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\groupsock.pdb" /Gd /TC /analyze- /errorReport:prompt inet.c
          inet.c
        Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\Release\groupsock.lib" /NOLOGO /LTCG Release\GroupEId.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\ASUS\Downloads\li5\live555\Release\groupsock.lib" /NOLOGO /LTCG Release\GroupEId.obj
          Release\Groupsock.obj
          Release\GroupsockHelper.obj
          Release\inet.obj
          Release\IOHandlers.obj
          Release\NetAddress.obj
          Release\NetInterface.obj
-         groupsock.vcxproj -> C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\Release\groupsock.lib
-     1>Done Building Project "C:\Users\P35\Documents\Visual Studio 2013\Projects\Live555\groupsock\groupsock.vcxproj" (Rebuild target(s)).
+         groupsock.vcxproj -> C:\Users\ASUS\Downloads\li5\live555\Release\groupsock.lib
+     1>"C:\Users\ASUS\Downloads\li5\live555\groupsock\groupsock.vcxproj" 프로젝트를 빌드했습니다(Rebuild 대상).
 
-Build succeeded.
+빌드했습니다.
 
-Time Elapsed 00:00:04.16
+경과 시간: 00:00:18.39
