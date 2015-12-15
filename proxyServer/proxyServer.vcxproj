@@ -14,6 +14,7 @@
     <ProjectGuid>{D2CAA0B4-B187-4C7B-93BD-B9F6E866D2CF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>proxyServer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
